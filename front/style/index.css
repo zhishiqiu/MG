@@ -1,0 +1,113 @@
+.head {
+	height: 1000px;
+	position: relative;
+}
+
+.head>.header {
+	width: 100%;
+	z-index: 999;
+}
+
+.head>.header>.container {
+	width: 80% !important;
+}
+
+.head .banner {
+	height: 100%;
+}
+
+.head .banner>div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 1.5s;
+}
+
+.hide {
+	opacity: 0 !important;
+}
+
+.show {
+	opacity: 1 !important;
+}
+
+.head .banner>div>img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.head .banner>div:first-of-type {
+	opacity: 1;
+}
+
+.lrbutton>li {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	z-index: 100;
+	font-weight: 200;
+	top: 46.3%;
+}
+
+.lrbutton>li:first-of-type {
+	left: 1%;
+}
+
+.lrbutton>li:last-of-type {
+	right: 1%;
+}
+
+.smallbutton {
+	position: absolute;
+	overflow: hidden;
+	height: 10px;
+	bottom: 4%;
+	left: 46.7%;
+	z-index: 100;
+}
+
+.smallbutton,
+.lrbutton {
+	cursor: pointer;
+}
+
+.smallbutton>li {
+	width: 10px;
+	height: 100%;
+	float: left;
+	margin-right: 15px;
+	border-radius: 100%;
+	background: rgb(180, 182, 179);
+}
+
+.smallbutton>li:first-child {
+	width: 30px;
+	border-radius: 10px;
+	background: rgb(150, 208, 156);
+}
+
+.btnstyleshow {
+	width: 30px !important;
+	border-radius: 10px !important;
+	background: rgb(150, 208, 156) !important;
+}
+
+.btnstylehide {
+	width: 10px !important;
+	border-radius: 100% !important;
+	background: rgb(180, 182, 179) !important;
+}
+
+.center {
+	height: 500px;
+	width: 100%;
+	display: flex;
+}
