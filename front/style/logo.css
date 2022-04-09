@@ -52,7 +52,7 @@
 .logobox{
 	position:absolute;
 	width:calc(20% - 100px);
-	height:550px;
+	height: 500px;
 	background:#fff;
 	left:40%;
 	top:25%;
@@ -68,29 +68,8 @@
 	margin-bottom:15px;
 	color:#404040;
 }
-.logoclass{
-	width:calc(100% - 40px);
-	padding:0 20px;
-	height:40px;
-	display:flex;
-	justify-content:space-between;
-}
-.logoclass>li>a{
-	color:#D6D6D6;
-	font-size:18px;
-	display:block;
-	height:calc(100% - 3px);
-	border-bottom:3px solid rgba(0,0,0,0);
-	line-height:40px;
-}
-.logoclass>li:first-child>a{
-	color:#42D333;
-	border-color:#42D333;
-}
-.logoclass>li>a:hover{
-	color:#42D333;
-	border-color:#42D333;
-}
+
+
 .logobox>form{
 	width:100%;
 	margin-top:20px;
