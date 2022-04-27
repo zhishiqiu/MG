@@ -277,7 +277,10 @@ a {
 
 
 
-
+.foottop {
+	height: 60px;
+	background-color:#868688;
+}
 
 
 
@@ -313,65 +316,8 @@ a {
 
 
 
-
-.footer-er {
-	width: 390px;
-	height: 190px;
-	
-	margin-top: 20px;
-	padding: 20px 30px;
+.footer-er>a>img {
+	width: 70px; height: 70px;
 }
 
-.footer-er>div {
-	float: left;
-}
 
-.footer-er h3 {
-	color: #404040;
-}
-
-.footer-er>div:first-child>ul>li {
-	margin-top: 15px;
-	margin-left: 25px;
-}
-
-.footer-er>div:first-child>ul>li>a>i {
-	font-size: 25px;
-	color: #CBCBCB;
-}
-.footer-er>div:first-child>ul>li>a>i:hover{
-	color: #42D333;
-}
-.footer-er>div:nth-child(2) {
-	margin-left: 70px;
-}
-
-.footer-er>div:nth-child(2)>img {
-	width: 120px;
-}
-
-.footer-er>div:last-child {
-	margin-top: 65px;
-	margin-left: 20px;
-}
-
-.footer-er>div:last-child>div {
-	width: 100px;
-	height: 30px;
-	border: 2px solid #42D333;
-	margin-bottom: 10px;
-}
-
-.footer-er>div:last-child>div>a {
-	display: block;
-	height: 100%;
-	font-size: 12px;
-	color: #42D333;
-	line-height: 30px;
-	text-align: center;
-}
-
-.footer-er>div:last-child i {
-	font-size: 16px;
-	margin-right: 3px;
-}
