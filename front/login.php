@@ -10,8 +10,8 @@
    
     if ($username and $password){
        
-        $sql = "select * from login where username = '$username' and password = '$password' ";
-        $result = $conn->query($sql);
+        $sql1 = "select * from login where username = '$username' and password = '$password' ";
+        $result = $conn->query($sql1);
         if ($result->num_rows > 0){
              header("location=index.html");
         }else{
