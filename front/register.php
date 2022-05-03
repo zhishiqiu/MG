@@ -1,35 +1,4 @@
 <?php
-    // include('connect.php');
-    // require_once("connect.php");
-
-    // if(isset($_POST['username'])){
-    //     $username = $_POST['username'];
-    // }
-    // if(isset($_POST['password'])){
-    //     $password = $_POST['password'];
-    // }
-
-    // if($password){
-    //     $sql_select = "SELECT username FROM users WHERE username = '$username'";
-
-    //     $ret = mysqli_query($conn, $sql_select);
-    //     $row = mysqli_fetch_array($ret);
-
-    //     if($username == $row['username']){
-    //         echo "<script>alert('username is used');<script>";
-    //         header("location:register.html");
-    //     }else {
-
-    //         $sql_insert = " INSERT INTO users(username, password) VALUES($username, $password)";
-    //         mysqli_query($conn, $sql_insert);
-    //         echo "<script>alert('ok!');<script>";
-    //         header("location:login.html");
-    //     }
-    //     mysqli_close($conn);
-    // } else {
-    //     echo "<script>alert('ok!');<script>";
-    //     header("location:register.html");
-    // }
     include "connect.php";
     $username = $_POST['username'];
     $password = $_POST['password'];
