@@ -112,3 +112,89 @@
 	width: 100%;
 	display: flex;
 }
+
+
+
+.field {
+	width: 100%;
+	height: 550px;
+	display: block;
+	position: relative;
+	margin-bottom: 40px !important;
+}
+.paragraph {
+	height: 450px;
+	width: 100%;
+	background-color: rgb(243, 240, 235);
+	padding: 60px 0 30px;
+
+}
+
+.field_name1{
+	display: block;
+	position: relative;
+	text-align: center;
+	
+	
+}
+ .field_name1 h1 {
+	font-family: "Nexa-Regular",Arial, Helvetica, sans-serif !important;
+	font-size: 35px;
+	display: block;
+	text-align: center;
+	font-weight: 400;
+	color: #4d4751;
+
+ }
+.layout {
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+}
+.field_name2 {
+	display: flex;
+	
+}
+.field_item {
+	text-align: center;
+	margin-top: 3%;
+	width: 50%;
+}
+
+.field_item h2 {
+	font-family: "Nexa-Regular",Helvetica, Arial,sans-serif;
+	font-size: 20px;
+	color: #004c81;
+	
+	
+}
+.field_item > p{
+	text-align: center;
+	color: #4d4751;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	font-size: 14px;
+}
+
+.botton {
+	margin-top: 70px;
+}
+
+.botton  a {
+	display: inline-block;
+	font-weight: 700;
+	min-width: 200px;
+	background-color: #fff;
+	color: #004c81;
+	padding: 0 30px;
+	min-height: 44px;
+	max-width: 100%;
+	border: 2px solid #20ccf8;
+	border-radius: 23px;
+	text-decoration: none;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	
+}
