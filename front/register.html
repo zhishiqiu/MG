@@ -35,16 +35,16 @@
     <div class="bg"></div>
 		<div class="logobox">
 			<h1>Sign Up</h1>
-			<form action="#" method="post">
-				<div class="logolable"><lable>Set account</lable></div>
-				<div class="logoinput" ><input type="text" id="zhang" ></div>
-				<div class="logolable"><lable>Set Password</lable></div>
-				<div class="logomima"><input type="text" id="mima"/></div>
-				<div class="logoxieyi">
+			<form action="register.php" method="post">
+				<div class="logolable"><lable>Username</lable></div>
+				<div class="logoinput" ><input type="text" id="username" name="username" required="required"></div>
+				<div class="logolable"><lable>Password</lable></div>
+				<div class="logomima"><input type="password" id="password" name="password" required="required"></div>
+				<!-- <div class="logoxieyi">
 					<input type="checkbox" id="check"/>
 					<span>Read And Accepted<a href="#">（Registration Agreement）</a></span>
-				</div>
-				<div class="logobutton">Sign Up</div>
+				</div> -->
+				<div class="logobutton"><input type="submit" id="register" name="register" value="register" class="logobutton"></div>
 			</form>
 			<div class="logocaozuo">
 				<div><a href="#"></a></div>
