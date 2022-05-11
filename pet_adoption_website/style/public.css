@@ -88,29 +88,40 @@ a {
 	position: relative;
 	display: inline-block;
 	
+	
 }
 
-.dropdown-content {
-	display:none;
+.titlelist .dropdown-content {
+	
 	position: absolute;
-	background-color: rgb(97, 96, 96);
-	padding: 20px 20px ;
+	background-color: rgb(147, 150, 133);
 	
 	min-width: 250px;
 	box-shadow: 0px 15px 16px 0px rgba(0,0,0,.2);
 	font-size: 20px;
-	z-index: 1;
+	padding-left: 30px;
 	color: #fff;
 	line-height: 2;
-	
-	
+	overflow: hidden;
+	transition: 0.5s;
+	height: 0;
 }
+
 .dropdown:hover  .dropdown-content {
 	display: block;
+	height: 120px;
+	
 }
 .dropdown-content p {
 	font-family:  Georgia, serif;
 }
+
+.xiatiao {
+	margin-top: 8%;
+	
+}
+
+
 
 .header .dengru {
 	float: right;
