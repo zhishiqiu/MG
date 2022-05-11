@@ -13,7 +13,7 @@
         header("refresh:0;url=login.php");
     }else{
         echo "<script>alert('비워둘 수 없습니다!');</script>";
-        header("refresh:0;url=register.html");
+        header("refresh:0;url=registerpage.php");
     }
     $conn->close();
 

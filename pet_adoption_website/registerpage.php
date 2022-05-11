@@ -14,14 +14,14 @@
         <div class="container">
             <div class="logo"><a href="index.html"><img src="image/maologo.jpg" ></a></div>
             <ul class="titlelist">
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="liao.html">PET ADOPTION</a></li>
                 <li><a href="activity.html">ABOUT COMPANY</a></li>
                 
             </ul>
             <div class="dengru">
-                <div><a href="login.html">LOGIN</a></div>
-                <div><a href="register.html">SIGN UP</a></div>
+                <div><a href="loginpage.php">LOGIN</a></div>
+                <div><a href="registerpage.php">SIGN UP</a></div>
             </div>
         </div>
     </div>
