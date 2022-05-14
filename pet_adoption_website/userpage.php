@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,7 @@
     <title>user page</title>
 </head>
 <body>
-    
+    <p>username : <?php echo $_COOKIE["username"] ?></p>
+    <p><a href="logout.php" title="logout">logout</a> </p>
 </body>
 </html>
