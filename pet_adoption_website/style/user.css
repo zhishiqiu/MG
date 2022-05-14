@@ -1,0 +1,71 @@
+.user a {
+	
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+.user .userimage {
+	border-radius: 0;
+	height: 70px;
+	width: 70px;
+	margin-right: 10px;
+	vertical-align: middle;
+	float: right;
+}
+.user .jiantou {
+	height: 25px;
+	width: 20px;
+	float: right;
+	margin-top: 20px;
+}
+.manage-box {
+    
+	display: inline-block;
+    float: right;
+	
+}
+.manage-cont {
+	position: absolute;
+	min-width: 340px;
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 7px 16px 0 rgb(0, 0, 0 , .2);
+	top: 100%;
+	right: 0;
+	transform: translateY(10px);
+	opacity: 0;
+	transition: 0.5s;
+    height: 0;
+}
+.manage-box:hover .manage-cont {
+ 
+    height: 120px;
+	
+}
+.manage-cont.logout {
+    
+    font-size: 13px;
+    line-height: 28px;
+    color: #666;
+    position: absolute;
+    top: 24px;
+    right: 36px;
+}
+
+.manage-cont.logout a {
+    
+    color: inherit;
+    outline: none;
+}
+.manage-cont .item_manage {
+    
+    padding: 0 36px;
+}
+.manage-cont .manage_select a {
+    font-size: 14px;
+    line-height: 72px;
+    color: #333;
+    display: inline-block;
+    margin-right: 56px;
+    
+}
