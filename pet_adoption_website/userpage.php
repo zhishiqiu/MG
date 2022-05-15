@@ -28,20 +28,19 @@
                     <li><a href="activity.html">ABOUT COMPANY</a></li>
                     
                 </ul>
-                <div class="user">
-                        <div class="manage-box">
+                <div class="user">              
                             <a href="#">
                                 <img class="jiantou" src="image/jiantou.png" >
                                 <img class="userimage" src="image/user.jpg" >
                             </a>
-                        </div>
+                        
                          
                         <div class="manage-cont">
                             <div class="item_manage manage_info">
                                 <div class="logout"><a href="index.php">Sign out</a></div>
                             </div>
                             <div class="item_manage manage_select">
-                                <a href="#">Your profile</a>
+                                <a href="your_profilepage.php">Your profile</a>
                                 <a href="#">Account settings</a>
                             </div>
                         </div>

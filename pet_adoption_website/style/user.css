@@ -1,5 +1,7 @@
 .user {
     position: relative;
+	display: inline-block;
+	float: right;
 }
 .user a {
 	
@@ -21,44 +23,48 @@
 	float: right;
 	margin-top: 20px;
 }
-.manage-box {
-    
-	display: inline-block;
-    float: right;
-	
-}
-.manage-cont {
+
+
+.user .manage-cont {
 	position: absolute;
-	min-width: 340px;
+	min-width: 400px;
 	background-color: #fff;
 	border-radius: 3px;
 	box-shadow: 0 7px 16px 0 rgb(0, 0, 0 , .2);
-	top: 100%;
-	right: 0;
+	margin-top: 60px;
 	transform: translateY(10px);
-	opacity: 0;
-	transition: 0.5s;
+	right: 0;
+	transition: all .3s ease-out 0s;
     height: 0;
+	overflow: hidden;
+
+
 }
-.manage-box:hover .manage-cont {
- 
-    height: 120px;
+.user:hover .manage-cont {
+	display: block;
+    height: 100px;
+	padding-top: 18px;
 	
 }
-.manage-cont.logout {
-    
-    font-size: 13px;
+
+.item_manage.logout {
+	
+    font-size: 16px;
     line-height: 28px;
-    color: #666;
+    color: #333;
     position: absolute;
-    top: 24px;
+	top: 24px;
     right: 36px;
+	
 }
 
 .manage-cont.logout a {
     
     color: inherit;
     outline: none;
+}
+.manage-cont .item_manage:not(:last-child) {
+	border-bottom: 1px solid #f0f0f0;
 }
 .manage-cont .item_manage {
     

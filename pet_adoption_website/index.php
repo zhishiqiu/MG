@@ -154,6 +154,67 @@
                 </div>
         </div>
 
+        <div class="module_container">
+            <div class="container_header" style="visibility:visible;">
+                <p class="title">Guide to owning a pet</p>
+            </div>
+            <div class="container_content">
+                <div class="content_wrapper">
+                    <ul class="content_list">
+                        <li class="item_block wow first" style="animation: delay 0s; visibility:visible; animation-name:fadeInUp;">
+                            <a href="#" title="How to get pets to go to the toilet in a fixed place"><img src="image/aa.jpg"></a>
+                            <div class="item_wrapper clearfix">
+                                <a href="#" class="item_info clearfix">
+                                    <p class="title ellipsis">How to get pets to go to the toilet in a fixed place</p>
+                                    <p class="subtitle ellipsis">16/25 --</p>
+                                    <div class="description">
+                                        <p>Let pets know where their toilets are, and keeping your home clean and tidy is an essential knowledge for pets</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="item_block wow" style="animation: delay 0.1s; visibility:visible; animation-name:fadeInUp;">
+                            <a href="#" title="Daily feeding of Labrador"><img src="image/bb.jpeg"></a>
+                            <div class="item_wrapper clearfix">
+                                <a href="#" class="item_info clearfix">
+                                    <p class="title ellipsis">Daily feeding of Labrador</p>
+                                    <p class="subtitle ellipsis">05/19 |</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="item_block wow" style="animation: delay 0.2s; visibility:visible; animation-name:fadeInUp;">
+                            <a href="#" title="How to get your dog to behave properly"><img src="image/cc.jpg"></a>
+                            <div class="item_wrapper clearfix">
+                                <a href="#" class="item_info clearfix"> 
+                                    <p class="title ellipsis">How to get your dog to behave properly</p>
+                                    <p class="subtitle ellipsis">04/25 |</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="item_block wow" style="animation: delay 0.3s; visibility:visible; animation-name:fadeInUp;">
+                            <a href="#" title="Teach you to read the language of pets"><img src="image/dd.jpg"></a>
+                            <div class="item_wrapper clearfix">
+                                <a href="#" class="item_info clearfix"> 
+                                    <p class="title ellipsis">Teach you to read the language of pets</p>
+                                    <p class="subtitle ellipsis">03/09 |</p>
+                                </a>
+                            </div>
+                        </li>
+
+                        
+
+                  </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
         <div class="foottop"></div>
         <div class="footer">
             <div class="container">

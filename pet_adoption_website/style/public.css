@@ -315,6 +315,16 @@ a {
 	font-size: 20px;
 }
 
+.module_container {
+	padding: 120px 5px;
+	position: relative;
+	z-index: 2;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+
 
 
 
