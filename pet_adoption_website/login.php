@@ -14,7 +14,7 @@ if($username == "root" and $password == "12345"){
         if ($result->num_rows > 0){
              setcookie('username',$username,time() + 24 * 3600,'/');
              setcookie('password',$password,time() + 24 * 3600,'/');
-             header("refresh:0;url=index.php");
+             header("refresh:0;url=userpage.php");
         }else{
              echo "<script>alert('worry username or password');</scrip>";
              header("refresh:0;url=loginpage.php");
