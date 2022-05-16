@@ -12,7 +12,7 @@
 <body>
     <div class="header">
         <div class="container">
-            <div class="logo"><a href="index.html"><img src="image/maologo.jpg" ></a></div>
+            <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
             <ul class="titlelist">
                 <li><a href="index.php">HOME</a></li>
                 <li class="dropdown"><a href="liao.html">PET ADOPTION</a>

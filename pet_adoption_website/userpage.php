@@ -37,11 +37,10 @@
                          
                         <div class="manage-cont">
                             <div class="item_manage manage_info">
-                                <div class="logout"><a href="index.php">Sign out</a></div>
+                                <div class="logout"><a href="logout.php" title="logout">Sign out</a></div>
                             </div>
                             <div class="item_manage manage_select">
-                                <a href="your_profilepage.php">Your profile</a>
-                                <a href="#">Account settings</a>
+                                <a href="userhome.php">user home</a>
                             </div>
                         </div>
                          
