@@ -1,4 +1,8 @@
+<?php 
 
+include('connect.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,15 +36,17 @@
                             <a href="#">
                                 <img class="jiantou" src="image/jiantou.png" >
                                 <img class="userimage" src="image/user.jpg" >
+                                <!-- <img class="userimage" > -->
                             </a>
                         
                          
                         <div class="manage-cont">
+                            <div class="item_manage manage_select">
+                                <!-- <div class="logout"><a href="userhome.php">user home</a></div> -->
+                                <div> <?php echo $_COOKIE['username']?> </div>
+                            </div>
                             <div class="item_manage manage_info">
                                 <div class="logout"><a href="logout.php" title="logout">Sign out</a></div>
-                            </div>
-                            <div class="item_manage manage_select">
-                                <a href="userhome.php">user home</a>
                             </div>
                         </div>
                          
