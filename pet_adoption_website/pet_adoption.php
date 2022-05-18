@@ -1,7 +1,3 @@
-<?php   
-    include("connect.php");
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +8,10 @@
     <title>Adoption</title>
 </head>
 <body>
-    
+    <div>
+        <div>
+            
+        </div>
+    </div>
 </body>
 </html>

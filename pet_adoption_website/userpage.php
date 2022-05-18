@@ -1,4 +1,8 @@
+<?php 
 
+include('connect.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,6 +36,7 @@
                             <a href="#">
                                 <img class="jiantou" src="image/jiantou.png" >
                                 <img class="userimage" src="image/user.jpg" >
+                                <!-- <img class="userimage" > -->
                             </a>
                         
                          
