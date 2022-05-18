@@ -52,9 +52,9 @@
                 <li>&gt;</li>
             </ul>
             <ul class="smallbutton">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li class="btnstyleshow btnstylehide"></li>
+                <li class="btnstyleshow btnstylehide"></li>
+                <li class="btnstyleshow"></li>
             </ul>
         </div>
 
@@ -229,8 +229,8 @@
         </div>
         <script type = "text/javascript" src="script/js.js"></script>
         
-
-        <script type="text/javascript" src="script/logo.js"></script>
+        <script type = "text/javascript" src="script/jquery.js"></script>
+        <script type="text/javascript" src="script/login.js"></script>
      
 </body>
 </html>
