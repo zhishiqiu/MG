@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,17 @@
 <body>
     <div>
         <div>
-            
+            <?php
+
+                require_once 'connect.php';
+                $sql = "SELECT petName, petType, sex from pet where id = 1";
+                $result = $conn -> query($sql);
+                if($result -> num_rows > 0){
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo "Name: " . $row["petName"] . " Type " . $row["petType"] . " Sex: " . $row["sex"] . "";
+                    }
+                }
+            ?>
         </div>
     </div>
 </body>
