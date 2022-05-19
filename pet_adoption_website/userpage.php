@@ -47,6 +47,10 @@ include('connect.php');
                             </div>
                             <div class="item_manage manage_info">
                                 <div class="logout"><a href="logout.php" title="logout">Sign out</a></div>
+                                
+                            </div>
+                            <div class="item_manage manage_select">
+                                <a href="userhome.php">Your profile</a>
                             </div>
                         </div>
                          
@@ -195,6 +199,7 @@ include('connect.php');
      
 
 </body>
+<script type="text/javascript" src="script/jquery.js"></script>
 <script type = "text/javascript" src="script/js.js"></script>
 <script type="text/javascript" src="script/logo.js"></script>
 </html>
