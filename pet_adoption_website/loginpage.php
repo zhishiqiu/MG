@@ -58,14 +58,7 @@
             <div><a href="#">REGISTER</a></div>
             
         </div>
-        <div class="logohuozhe">
-            <div>or</div>
-        </div>
-        <ul class="logoqita">
-            <li><a href="#"><img src="image/facebook.png" width="50px" height="50px"></a></li>
-            <li><a href="#"><img src="image/instagram.png" width="50px" height="50px"></a></li>
-            <li><a href="#"><img src="image/kakao_talk.png" width="50px" height="50px"></a></li>
-        </ul>
+        
     </div>
  
    

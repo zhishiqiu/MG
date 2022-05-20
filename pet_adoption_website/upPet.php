@@ -11,11 +11,63 @@ if(!isset($_COOKIE['username'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>up pet</title>
+	<link rel="stylesheet" type="text/css" href="style/public.css" />
+	<link rel="stylesheet" type="text/css" href="style/uppet.css" />
+	<link rel="stylesheet" type="text/css" href="style/user.css" />
 </head>
 <body>
-<div class="content">
+<div class="head">
+        <div class="header">
+            <div class="container">
+                <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
+                <ul class="titlelist">
+                    <li><a href="index.php">HOME</a></li>
+                    <li class="dropdown"><a href="liao.html">PET ADOPTION</a>
+                    <div class="dropdown-content" >
+                        <p class="xiatiao">Pet Adoption FAQs</p>
+                        <p class="xiatiao2">Prepare For Adopt A Pet</p>
+                    </div>
+                    </li>
+                    <li><a href="activity.html">ABOUT COMPANY</a></li>
+                    
+                </ul>
+                <div class="user">              
+                            <a href="#">
+                                <img class="jiantou" src="image/jiantou.png" >
+                                <img class="userimage" src="image/user.jpg" >
+                                <!-- <img class="userimage" > -->
+                            </a>
+                        
+                         
+                        <div class="manage-cont">
+                            <div class="item_manage manage_select">
+                                <!-- <div class="logout"><a href="userhome.php">user home</a></div> -->
+                                <div> <?php echo $_COOKIE['username']?> </div>
+                            </div>
+                            <div class="item_manage manage_info">
+                                <div class="logout"><a href="logout.php" title="logout">Sign out</a></div>
+                                
+                            </div>
+                            <div class="item_manage manage_select">
+                                <a href="userhome.php">Your profile</a>
+                            </div>
+                        </div>
+                         
+                </div>
+
+            </div>
+    </div>
+
+	<div class="head">
+        <div class="banner">
+            <div><img src="image/fabu1.jpg"></div>
+        </div>
+    </div>
+	<div class="bx"></div>
+
+	<div class="fabucontent">
 			<div class="cont-title">
-				<h2>上架宠物</h2>
+				<h2>Post Content</h2>
 			</div>
 			<div class="cont-inner">
 			<form action="php/uploadPet.php" method="post" enctype="multipart/form-data">
@@ -45,7 +97,7 @@ if(!isset($_COOKIE['username'])){
 						<td><input type="text" name="place"/></td>
 					</tr>
 					<tr class="inner-main">
-						<td>是否注射疫苗：</td>
+						<td>whether to vaccinate：</td>
 						<td><input type="text" name="vacc"/></td>
 					</tr>
 					<tr class="inner-main">

@@ -38,7 +38,7 @@
             <div><img src="image/3.jpg">
                 <span style="position: absolute; margin-top: 200px; font-size: 70px; font-weight: 200; color: blanchedalmond;">Find your new best friend there</span>
             </div>
-            <div><img src="image/2.webp">
+            <div><img src="image/index1.jpg">
                 <span style="position: absolute; margin-top: 200px; font-size: 70px; font-weight: 200; color: blanchedalmond;">Find your new best friend there</span>
             </div>
             <div><img src="image/5.webp">
@@ -169,13 +169,13 @@
                         </li>
 
                         <li id ="item_block_1"class="item_block wow" >
-                            <a href="#" class="item_img" title="Daily feeding of Labrador"><img src="image/bb.jpeg"></a>
                             <div class="item_wrapper clearfix">
                                 <a href="#" class="item_info clearfix">
                                     <p class="title ellipsis">Daily feeding of Labrador</p>
                                     
                                 </a>
                             </div>
+                            <a href="#" class="item_img" title="Daily feeding of Labrador"><img src="image/bb.jpeg"></a>
                         </li>
 
                         <li id ="item_block_2" class="item_block wow" >
@@ -193,18 +193,15 @@
                             <div class="item_wrapper clearfix">
                                 <a href="#" class="item_info clearfix"> 
                                     <p class="title ellipsis">Teach you to read the language of pets</p>
-                                   
                                 </a>
                             </div>
                         </li>
-
-                        
-
                   </ul>
                 </div>
             </div>
         </div>
 
+      
 
 
 
