@@ -10,7 +10,7 @@ if(!isset($_COOKIE['username'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>上架宠物</title>
+    <title>up pet</title>
 </head>
 <body>
 <div class="content">
@@ -21,27 +21,27 @@ if(!isset($_COOKIE['username'])){
 			<form action="php/uploadPet.php" method="post" enctype="multipart/form-data">
 				<table>
 					<tr class="inner-main">
-						<td>插入图片：</td>
+						<td>picture：</td>
 						<td><input type="file" name="pet-submit"></td>
 					</tr>
 					<tr class="inner-main">
-						<td>种类：</td>
+						<td>type：</td>
 						<td><input type="text" name="petType"/></td>
 					</tr>
                     <tr class="inner-main">
-						<td>名字：</td>
+						<td>pet name：</td>
 						<td><input type="text" name="petName"/></td>
 					</tr>
 					<tr class="inner-main">
-						<td>性别：</td>
+						<td>sex：</td>
 						<td><input type="text" name="sex"/></td>
 					</tr>
 					<tr class="inner-main">
-						<td>年龄：</td>
+						<td>age：</td>
 						<td><input type="text" name="age"/></td>
 					</tr>
                     <tr class="inner-main">
-						<td>地点：</td>
+						<td>place：</td>
 						<td><input type="text" name="place"/></td>
 					</tr>
 					<tr class="inner-main">
@@ -58,7 +58,7 @@ if(!isset($_COOKIE['username'])){
 					</tr>
 				</table>
 				<div class="cont-btn">
-					<input class="button" type="submit" value="上架">
+					<input class="button" type="submit" value="submit">
 				</div>
 				</form>
 		</div>

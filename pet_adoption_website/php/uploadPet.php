@@ -15,18 +15,18 @@ $vacc=$_POST['vacc'];
 $tel=$_POST['tel'];
 $remark=$_POST['remark'];
 //上传图片，移动图片
-$destination="../image".$filename;
+$destination="../image/".$filename;
 move_uploaded_file($data, $destination);
 $n="image/".$filename;
 $sql="insert into pet(pic,petType,petName,sex,age,place,vacc,tel,remark)
     values('$n','$petType','$petName','$sex','$age','$place','$vacc','$tel','$remark')";
 $result=$conn->query($sql);
 	
-		if($result){
+if($result){
 			
-			echo "<script>alert('上架请求成功');window.location.href='../pet-main.php';</script>";
-		}else {
-			echo "<script>alert('上架失败');window.location.href='../pet-main.php'; </script>";
-		}
+	echo "<script>alert('ok');window.location.href='../pet_adoption.php';</script>";
+}else {
+	echo "<script>alert('failed');window.location.href='../pet_adoption.php'; </script>";
+}
 			
 ?>
