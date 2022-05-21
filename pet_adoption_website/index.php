@@ -60,6 +60,39 @@
             <h1>아이들에게 집을 주세요!</h1>
         </div>
 
+        <div class="field">
+            <div class="paragraph">
+            <div class="field_name1">
+                <h1>Planning to Adopt a Pet?</h1>
+            </div>
+            
+                <div class="layout">
+                    <div class="field_name2">
+                        <div class="field_item">
+                            <h2>Prepare For Adopt a Pet</h2>
+                            <p>Helping people who haven't made up their minds about having a pet</p>
+                            <div class="botton">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="field_item">
+                            <h2>Pet Adoption FAQs </h2>
+                            <p>Get answers to questions you haven't thought of</p>
+                            <div class="botton">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="introduction">
+            <div class="shuoming">
+                
+            </div>
+        </div>
+
         <div class="center-2">
             <ul class="imglist imglistone">
                 <li><a href="#">
@@ -125,84 +158,8 @@
             </div> 
         </div>
 
-        <div class="field">
-            <div class="paragraph">
-            <div class="field_name1">
-                <h1>Planning to Adopt a Pet?</h1>
-            </div>
-            
-                <div class="layout">
-                    <div class="field_name2">
-                        <div class="field_item">
-                            <h2>Prepare For Adopt a Pet</h2>
-                            <p>Helping people who haven't made up their minds about having a pet</p>
-                            <div class="botton">
-                                <a href="#">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="field_item">
-                            <h2>Pet Adoption FAQs </h2>
-                            <p>Get answers to questions you haven't thought of</p>
-                            <div class="botton">
-                                <a href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-        </div>
-
-        <div class="module_container">
-            <div class="container_content">
-                <div class="content_wrapper">
-                    <ul class="content_list">
-                        <li id ="item_block_0" class="item_block wow first" >
-                            <a href="#" class="item_img" title="How to get pets to go to the toilet in a fixed place"><img src="image/aa.jpg"></a>
-                            <div class="item_wrapper clearfix">
-                                <a href="#" class="item_info clearfix">
-                                    <p class="title ellipsis">How to get pets to go to the toilet in a fixed place</p>
-                                    <div class="description">
-                                        <p>Let pets know where their toilets are, and keeping your home clean and tidy is an essential knowledge for pets</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-
-                        <li id ="item_block_1"class="item_block wow" >
-                            <div class="item_wrapper clearfix">
-                                <a href="#" class="item_info clearfix">
-                                    <p class="title ellipsis">Daily feeding of Labrador</p>
-                                    
-                                </a>
-                            </div>
-                            <a href="#" class="item_img" title="Daily feeding of Labrador"><img src="image/bb.jpeg"></a>
-                        </li>
-
-                        <li id ="item_block_2" class="item_block wow" >
-                            <a href="#" class="item_img" title="How to get your dog to behave properly"><img src="image/cc.jpg"></a>
-                            <div class="item_wrapper clearfix">
-                                <a href="#" class="item_info clearfix"> 
-                                    <p class="title ellipsis">How to get your dog to behave properly</p>
-                                  
-                                </a>
-                            </div>
-                        </li>
-
-                        <li id ="item_block_3" class="item_block wow" >
-                            <a href="#" class="item_img"  title="Teach you to read the language of pets"><img src="image/dd.jpg"></a>
-                            <div class="item_wrapper clearfix">
-                                <a href="#" class="item_info clearfix"> 
-                                    <p class="title ellipsis">Teach you to read the language of pets</p>
-                                </a>
-                            </div>
-                        </li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-
-      
-
+        
+       
 
 
 
