@@ -1,4 +1,8 @@
-
+<?php
+    require_once 'connect.php';
+    $sql = "SELECT petName, petType, sex from pet";
+    $result = $conn -> query($sql);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,17 +15,17 @@
 <body>
     <div>
         <div>
-            <?php
-
-                require_once 'connect.php';
-                $sql = "SELECT petName, petType, sex from pet where id = 1";
-                $result = $conn -> query($sql);
-                if($result -> num_rows > 0){
-                    while ($row = mysqli_fetch_assoc($result)) {
-                        echo "Name: " . $row["petName"] . " Type " . $row["petType"] . " Sex: " . $row["sex"] . "";
-                    }
-                }
-            ?>
+            <div>
+                <div>
+                    <p> 
+                        <?php if($result -> num_rows > 0){
+                            while ($row = mysqli_fetch_assoc($result)) {
+                                echo "Name: " . $row["petName"] . " Type " . $row["petType"] . " Sex: " . $row["sex"] . "";
+                            }
+                        }?> 
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>

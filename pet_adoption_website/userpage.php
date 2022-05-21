@@ -41,16 +41,17 @@ include('connect.php');
                         
                          
                         <div class="manage-cont">
-                            <div class="item_manage manage_select">
-                                <!-- <div class="logout"><a href="userhome.php">user home</a></div> -->
+                            <div class="item_manage manage_info">
                                 <div> <?php echo $_COOKIE['username']?> </div>
                             </div>
                             <div class="item_manage manage_info">
-                                <div class="logout"><a href="logout.php" title="logout">Sign out</a></div>
+                                <div><a href="logout.php" title="logout">Sign out</a></div>
                                 
                             </div>
-                            <div class="item_manage manage_select">
-                                <a href="userhome.php">Your profile</a>
+                            <div class="item_manage manage_info">
+                                <div>
+                                    <a href="userhome.php">Your profile</a>
+                                </div>
                             </div>
                         </div>
                          

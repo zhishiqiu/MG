@@ -28,10 +28,10 @@
                     <li><a href="activity.html">ABOUT COMPANY</a></li>
                     
                 </ul>
-                <div class="dengru">
+                <!-- <div class="dengru">
                     <div><a href="loginpage.php">LOGIN</a></div>
                     <div><a href="registerpage.php">SIGN UP</a></div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="banner" style="margin-top:80px;">
@@ -39,7 +39,7 @@
 			<div class="user">
 				<div class="user-img"><img src="image/user.jpg" ></div>
 				<div class="user-text">
-					<div><h3>halikes</h3><i class="iconfont icon-v"></i><span>+focus on</span><span>...</span></div>
+					<div><h3><?php echo $_COOKIE['username']?></h3><i class="iconfont icon-v"></i><span>+focus on</span><span>...</span></div>
 					<p>focus on1<span>|</span>fans8994</p>
 				</div>
 			</div>
