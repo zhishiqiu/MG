@@ -56,8 +56,23 @@
                 </div>
 
             </div>
+        </div>
     </div>
-
-    
+    <div>
+        <div>
+            <div>
+                <div> 
+                    <?php if($result -> num_rows > 0){
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo "<div> Name: " . $row["petName"] . 
+                            " Type " . $row["petType"] . 
+                            " Sex: " . $row["sex"] . "</div>";
+                            
+                        }
+                    }?> 
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
