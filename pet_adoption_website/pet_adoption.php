@@ -13,6 +13,7 @@
     <title>Adoption</title>
     <link rel="stylesheet" type="text/css" href="style/public.css" />
     <link rel="stylesheet" type="text/css" href="style/user.css" />
+    <link rel="stylesheet" type="text/css" href="style/pet_adoption.css" />
 </head>
 <body>
     <div class="head">
@@ -51,13 +52,15 @@
                                     <a href="userhome.php">Your profile</a>
                                 </div>
                             </div>
-                        </div>
-                         
+                        </div>              
                 </div>
 
             </div>
         </div>
     </div>
+   
+    <div class="picture"><img src="image/petadopition.jpg"></div>
+    
     <div>
         <div>
             <div>
