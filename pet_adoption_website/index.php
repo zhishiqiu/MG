@@ -154,7 +154,7 @@
                 </li>
             </ul>
             <div class="more">
-                <a href="#">More</a>
+                <a href="pet_adoption.php">More</a>
             </div> 
         </div>
 

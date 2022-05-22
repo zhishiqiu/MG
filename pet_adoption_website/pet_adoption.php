@@ -98,6 +98,18 @@
                 </li>
             </ul>
     </div>
+    <!--<下一页>-->
+    <div id="pager" class="pager" style="text-align: center;">
+        <div class="layui-box layui-laypage layui-laypage-molv" id="layui-laypage-1"> 
+            <a href="javascript:;" class="layui-laypage-prev layui-disabled" data-page="0">上一页</a>
+            <span class="layui-laypage-curr">
+            <em class="layui-laypage-em" style="background-color: pink; "></em>
+            <em>1</em>
+            
+            </span>
+            <a href="javascript:;" class="layui-laypage-next layui-disabled" data-page="2">下一页</a>
+        </div>
+    </div>
     
     <div>
         <div>
@@ -115,5 +127,7 @@
             </div>
         </div>
     </div>
+    <script type = "text/javascript" src="script/layui.js"></script>
+    <script type = "text/javascript" src="script/fenye.js"></script>
 </body>
 </html>
