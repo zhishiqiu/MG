@@ -25,7 +25,7 @@
                         <p class="xiatiao2">Prepare For Adopt A Pet</p>
                     </div>
                     </li>
-                    <li><a href="activity.html">ABOUT COMPANY</a></li>
+                    <li><a href="#">ABOUT COMPANY</a></li>
                     
                 </ul>
                 <!-- <div class="dengru">
