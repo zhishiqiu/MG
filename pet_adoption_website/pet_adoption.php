@@ -60,6 +60,44 @@
     </div>
    
     <div class="picture"><img src="image/petadopition.jpg"></div>
+    <div class="chaxun"></div>
+    <div class="cen">
+        <ul class="adoption img1">
+                <li>
+                    <a href="#">
+                        <img src="image/adoption1.jpg">
+                        <div class="text-con">
+                            <div>
+                                <i class="iconfont icon-yanjing"></i><span>10000</span>
+                            </div>
+                            <h3>.............</h3>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/adoption2.jpg">
+                        <div class="text-con">
+                            <div>
+                                <i class="iconfont icon-yanjing"></i><span>10000</span>
+                            </div>
+                            <h3>.............</h3>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/adoption3.jpg">
+                        <div class="text-con">
+                            <div>
+                                <i class="iconfont icon-yanjing"></i><span>10000</span>
+                            </div>
+                            <h3>.............</h3>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+    </div>
     
     <div>
         <div>

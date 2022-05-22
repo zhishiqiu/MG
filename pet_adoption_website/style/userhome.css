@@ -6,13 +6,15 @@
 }
 .box {
 	display: flex;
-	height: 400px;
-	width: 1750px;
+    flex-direction: row;
+	height: auto;
+	width: auto;
 }
 .box img{
 	display: inline-block;
-	width: 100%;
-	height: auto;
+	text-align: center;
+	width: 1745px;
+	height: 400px;
 }
 
 .banner>div {
