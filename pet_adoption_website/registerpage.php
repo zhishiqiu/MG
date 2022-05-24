@@ -53,7 +53,7 @@
 			</form>
 			<div class="logocaozuo">
 				<div><a href="#"></a></div>
-				<div><a href="login.html">Already have an account? Go to login</a></div>
+				<div><a href="loginpage.php">Already have an account? Go to login</a></div>
 			</div>
 		</div>
         

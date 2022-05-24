@@ -25,7 +25,7 @@
                         <p class="xiatiao2">Prepare For Adopt A Pet</p>
                     </div>
                     </li>
-                    <li><a href="activity.html">ABOUT COMPANY</a></li>
+                    <li><a href="#com">ABOUT COMPANY</a></li>
                     
                 </ul>
                 <div class="dengru">
@@ -49,11 +49,7 @@
                 <li>&lt;</li>
                 <li>&gt;</li>
             </ul>
-            <ul class="smallbutton">
-                <li class="btnstyleshow btnstylehide"></li>
-                <li class="btnstyleshow btnstylehide"></li>
-                <li class="btnstyleshow"></li>
-            </ul>
+           
         </div>
 
         <div class="center">
@@ -157,7 +153,16 @@
                 <a href="pet_adoption.php">More</a>
             </div> 
         </div>
+        <!--<about us>-->
 
+        <div class="bac">
+            <div class="imgbox">
+                <img class="b-p" src="image/mycompany.png">
+                <img class= "ptwo" src="image/29.png">
+                <label class="content">We have a heart that loves animals, and we raise and nurture pets, hoping to find an owner who loves them and understands them, and finds a good family for them. At the same time, we also hope that it can bring happiness to the owner and accompany the owner. . We raise and breed puppies with the most professional personnel to ensure the physical and mental health of pets and the needs of buyers...</label>
+                <a id="com"><label class="yetou">/ABOUT US</label></a>
+            </div>
+        </div>
         
        
 

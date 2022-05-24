@@ -315,6 +315,45 @@ a {
 	font-size: 20px;
 }
 
+.bac {
+	display: flex;
+	flex-direction: row;
+	height: 680px;
+	width: 100%;
+}
+.bac .imgbox {
+	height: 680px;
+	width: 100%;
+	
+}
+.bac .b-p {
+	height: 650px;
+	width: 100%;
+	position: absolute;
+}
+.bac .ptwo {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 200px;
+}
+.bac label.content {
+	margin-top: 250px;
+	margin-left: 450px;
+	height: 84px;
+	width: 580px;
+	font-size: 14px;
+	color: #868688;
+	position: absolute;
+}
+.imgbox label.yetou {
+	font-size: 24px;
+	color: #666161;
+	padding-top: 50px;
+	margin-left: 150px;
+	
+	position: absolute;
+}
+
 
 
 

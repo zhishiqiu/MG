@@ -55,7 +55,7 @@
             <div class="logobutton"><input type="submit" id="submit" name="submit" class="logobutton" value="LOGIN"></div>
         </form>
         <div class="logocaozuo">
-            <div><a href="#">REGISTER</a></div>
+            <div><a href="registerpage.php">REGISTER</a></div>
             
         </div>
         
