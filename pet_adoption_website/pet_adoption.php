@@ -75,7 +75,7 @@
                                         <img src =". $row["pic"] . ">
                                         <div class='text-con' >
                                             <div>
-                                                <i class='iconfont icon-yanjing'></i><span>10000</span>
+                                                <i class='iconfont icon-yanjing'></i><span></span>
                                             </div>
                                             <div>" . $row["petName"] ."<br>" . $row["remark"] ."</div>
                                         </div>
@@ -83,40 +83,7 @@
                                 </li>";
                     }
             }?> 
-                <li>
-                    <a href="#">
-                        <img src="image/adoption1.jpg">
-                        <div class="text-con">
-                            <!-- <div>
-                                <i class="iconfont icon-yanjing"></i><span>10000</span>
-                            </div> -->
-                            <h3>.............</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="image/adoption2.jpg">
-                        <div class="text-con">
-                            <div>
-                                <i class="iconfont icon-yanjing"></i><span>10000</span>
-                            </div>
-                            <h3>.............</h3>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="image/adoption3.jpg">
-                        <div class="text-con">
-                            <div>
-                                <i class="iconfont icon-yanjing"></i><span>10000</span>
-                            </div>
-                            <h3>.............</h3>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+        </ul>
     </div>
     <!--<下一页>-->
     <div id="pager" class="pager" style="text-align: center;">
