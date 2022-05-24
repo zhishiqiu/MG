@@ -1,6 +1,10 @@
 <?php
+    if(!isset($_COOKIE['username'])){
+        header("refresh:0;url=login.php");
+    }
+
     require_once 'connect.php';
-    $sql = "SELECT petName, petType, sex from pet";
+    $sql = "SELECT petName, petType, sex, pic , remark from pet";
     $result = $conn -> query($sql);
 ?>
 
@@ -63,13 +67,29 @@
     <div class="chaxun"></div>
     <div class="cen">
         <ul class="adoption img1">
+            <?php if($result -> num_rows > 0){
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo 
+                                "<li>
+                                    <a herf='#'>
+                                        <img src =". $row["pic"] . ">
+                                        <div class='text-con' >
+                                            <div>
+                                                <i class='iconfont icon-yanjing'></i><span>10000</span>
+                                            </div>
+                                            <div>" . $row["petName"] ."<br>" . $row["remark"] ."</div>
+                                        </div>
+                                    </a>
+                                </li>";
+                    }
+            }?> 
                 <li>
                     <a href="#">
                         <img src="image/adoption1.jpg">
                         <div class="text-con">
-                            <div>
+                            <!-- <div>
                                 <i class="iconfont icon-yanjing"></i><span>10000</span>
-                            </div>
+                            </div> -->
                             <h3>.............</h3>
                         </div>
                     </a>

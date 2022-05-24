@@ -1,5 +1,7 @@
 <?php
-
+    if(!isset($_COOKIE['username'])){
+        header("refresh:0;url=login.php");
+    }
 ?>
 
 <!DOCTYPE html>
