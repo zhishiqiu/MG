@@ -34,7 +34,7 @@
 }
 
 .adoption>li {
-    
+   position: absolute;
     position: relative;
     margin-left: 5%;
 
