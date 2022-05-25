@@ -66,26 +66,25 @@
     <div class="picture"><img src="image/petadopition.jpg"></div>
     <div class="chaxun"></div>
     <div class="cen">
-        <ul class="adoption img1">
+        <div class="adoption img1">
             <?php if($result -> num_rows > 0){
                         while ($row = mysqli_fetch_assoc($result)) {
                             echo 
-                                "<li>
+                                "<div class='con'>
                                     <a href='pet.php?id= ". $row["id"] ."'>
                                         <img src =". $row["pic"] . ">
                                         <div class='text-con' >
-                                            <div>
-                                                <i class='iconfont icon-yanjing'></i><span></span>
-                                            </div>
+                                            
                                             <div class='dec'>" . $row["petName"] ."<br>" . $row["remark"] ."</div>
                                         </div>
                                     </a>
-                                </li>";
+                                </div>";
                     }
             }?> 
-        </ul>
+        </div>
     </div>
     <!--<下一页>-->
+    <!--
     <div id="pager" class="pager" style="text-align: center;">
         <div class="layui-box layui-laypage layui-laypage-molv" id="layui-laypage-1"> 
             <a href="javascript:;" class="layui-laypage-prev layui-disabled" data-page="0">上一页</a>
@@ -97,6 +96,7 @@
             <a href="javascript:;" class="layui-laypage-next layui-disabled" data-page="2">下一页</a>
         </div>
     </div>
+        -->
     
     <div>
         <div>

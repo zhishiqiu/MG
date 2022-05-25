@@ -20,32 +20,38 @@
 }
 .cen{
     display: flex;
+   flex-flow:row wrap ;
 	width: 80%;
 	margin: 0 auto;
-	height: 100%;
-	min-width:1000px;
+	height: auto;
+    flex-direction: row column;
+	
 }
 .adoption {
-	padding: 0;
+    width: auto;
+    height: auto;
+	padding: 0px;
+    margin: 0px;
 	display: flex;
+    flex-wrap: wrap;
+    flex-direction:row column;
+    text-align: center;
 	justify-content: space-between;
-	margin-bottom: 100px;
-    width: 100%;
-}
-
-.adoption>li {
-   position: absolute;
-    position: relative;
-    margin-left: 5%;
+	margin-bottom: 200px;
+    
+    
 
 }
-.adoption>li>a>img {
-    display: block;
-    width: 100%;
-    height: 100%;
+
+
+.adoption>div>a>img {
+   
+    display:block;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
 }
-.adoption>li>a>.text-con {
+.adoption>div>a>.text-con {
 	background-color: #fff;
 	position: absolute;
 	box-shadow: 0px 10px 50px -20px #000;
@@ -59,53 +65,25 @@
     text-decoration: none;
     color: #7c7a7a;
 }
-.adoption>li>a>.text-con>div:first-child {
-	overflow: hidden;
-}
-.adoption>li>a>.text-con>div:first-child>div:first-child {
-	float: left;
-	color: #999;
-}
-.adoption>li>a>.text-con>div:first-child {
-	float: right;
-	color: #999;
-}
-.adoption>li>a>.text-con>i {
-	margin-right: 5px;
-}
-.adoption>li>a>.text-con>div:first-child>div:last-child>span:first-of-type {
-	margin-right: 10px;
-}
-.adoption>li>a>.text-con>h3 {
-	color: #404040;
-	margin: 0;
-}
-.img1>li {
+
+
+
+.img1>div{
     position: relative;
-	width: 50%;
-	height: 280px;
+	width: 30%;
+	height: 400px;
+    
 }
-.img1>li>a>.text-con {
-	width: calc(90% - 20px);
-	height: calc(36% - 20px);
-	bottom: -18%;
-	left: 5%;
-}
-.img1>li>a>.text-con>div:first-child>div {
-	font-size: 12px;
+.img1>div>a>.text-con {
+	width: calc(90% - 50px);
+	height: calc(36% - 40px);
+	bottom: 5%;
+	left: -5%;
 }
 
-.img1>li>a>.text-con>div:first-child>i {
-	font-size: 12px !important;
-}
 
-.img1>li>a>.text-con>h3 {
-	font-size: 14px;
-}
 
-.img1>li>a>.text-con>div:first-child {
-	margin-bottom: 5px;
-}
+
 
 
 .pager {
