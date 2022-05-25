@@ -77,7 +77,7 @@
                                             <div>
                                                 <i class='iconfont icon-yanjing'></i><span></span>
                                             </div>
-                                            <div>" . $row["petName"] ."<br>" . $row["remark"] ."</div>
+                                            <div class='dec'>" . $row["petName"] ."<br>" . $row["remark"] ."</div>
                                         </div>
                                     </a>
                                 </li>";

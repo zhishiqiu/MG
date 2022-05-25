@@ -17,8 +17,8 @@
 </head>
 <body>
     <div class="header">
-            <div class="container">
-                <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
+            <div class="container"style="float: left; position:absolute; margin-left: 10%;" >
+                <div class="logo" ><a href="index.php"><img src="image/maologo.jpg" ></a></div>
                 <ul class="titlelist">
                     <li><a href="index.php">HOME</a></li>
                     <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
@@ -30,10 +30,12 @@
                     <li><a href="#">ABOUT COMPANY</a></li>
                     
                 </ul>
-                <!-- <div class="dengru">
+                <!--
+                <div class="dengru">
                     <div><a href="loginpage.php">LOGIN</a></div>
                     <div><a href="registerpage.php">SIGN UP</a></div>
-                </div> -->
+                </div> 
+                -->
             </div>
         </div>
         <div class="banner" style="margin-top:80px;">
