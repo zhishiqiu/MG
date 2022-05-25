@@ -4,7 +4,7 @@
     }
 
     require_once 'connect.php';
-    $sql = "SELECT petName, petType, sex, pic , remark from pet";
+    $sql = "SELECT id, petName, petType, sex, pic , remark from pet";
     $result = $conn -> query($sql);
 ?>
 
@@ -71,7 +71,7 @@
                         while ($row = mysqli_fetch_assoc($result)) {
                             echo 
                                 "<li>
-                                    <a herf='#'>
+                                    <a href='pet.php?id= ". $row["id"] ."'>
                                         <img src =". $row["pic"] . ">
                                         <div class='text-con' >
                                             <div>
