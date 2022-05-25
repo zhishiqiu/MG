@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style/index.css"/>
     <link rel="stylesheet" type="text/css" href="style/public.css" />
     <link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="style/user.css" />
    
 </head>
 <body>
@@ -28,10 +29,43 @@
                     <li><a href="#com">ABOUT COMPANY</a></li>
                     
                 </ul>
-                <div class="dengru">
-                    <div><a href="loginpage.php">LOGIN</a></div>
-                    <div><a href="registerpage.php">SIGN UP</a></div>
+                <!-- check cookie -->
+                <?php if(isset($_COOKIE["username"])){
+                    echo "
+                    <div class='user'>              
+                            <a href='#'>
+                                <img class='jiantou' src='image/jiantou.png' >
+                                <img class='userimage' src='image/user.jpg' >
+                            </a>
+                        
+                         
+                        <div class='manage-cont'>
+                            <div class='item_manage manage_info'>
+                                <div> " . $_COOKIE["username"] . " </div>
+                            </div>
+                            <div class='item_manage manage_info'>
+                                <div><a href='logout.php' title='logout'>Sign out</a></div>
+                                
+                            </div>
+                            <div class='item_manage manage_info'>
+                                <div>
+                                    <a href='userhome.php'>Your profile</a>
+                                </div>
+                            </div>
+                        </div>
+                         
                 </div>
+                ";
+                    
+                }else{
+                    echo "
+                    <div class='dengru'>
+                        <div><a href='loginpage.php'>LOGIN</a></div>
+                        <div><a href='registerpage.ph'>SIGN UP</a></div>
+                    </div>
+                    ";
+                }?>
+                    
             </div>
         </div>
             <div class="banner">
