@@ -65,7 +65,7 @@ $pet_id = $_GET["id"];
         </div>
     </div>
     <div class="petbox">
-       <div class="p-pic"><img src="image/aa.jpg"></div>
+       <div class="p-pic"><img src=""></div>
        <div class="message">
            <p >petname:</p>
            <p>petsex:</p>
