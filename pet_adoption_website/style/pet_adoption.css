@@ -43,20 +43,27 @@
 
 }
 
+.adoption>div>a {
+    margin: auto;
+}
 
 .adoption>div>a>img {
-   
-    display:block;
     width: 300px;
     height: 300px;
     border-radius: 100%;
 }
+
 .adoption>div>a>.text-con {
 	background-color: #fff;
 	position: absolute;
 	box-shadow: 0px 10px 50px -20px #000;
 	padding: 10px;
+    width: calc(90% - 50px);
+	height: calc(36% - 40px);
+	bottom: 5%;
+    left: 9%;
 }
+
 .text-con:hover .dec{
 	color:#FF9961 !important;
 
@@ -69,17 +76,18 @@
 
 
 .img1>div{
+    flex-wrap: wrap;
+    display: flex;
     position: relative;
 	width: 30%;
 	height: 400px;
     
 }
-.img1>div>a>.text-con {
+/* .img1>div>a>.text-con {
 	width: calc(90% - 50px);
 	height: calc(36% - 40px);
 	bottom: 5%;
-	left: -5%;
-}
+} */
 
 
 
