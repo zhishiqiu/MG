@@ -6,7 +6,11 @@
 .petbox {
     display: flex;
     position:absolute;
+<<<<<<< Updated upstream
 	width: 400px;
+=======
+	width:calc(28% - 5px);
+>>>>>>> Stashed changes
 	height: 500px;
 	background-color: rgb(167, 161, 165);
 	left:40%;
@@ -45,6 +49,7 @@
     display: flex;
     position: absolute;
     height: 150px;
+<<<<<<< Updated upstream
     width: 400px;
     bottom: 25%;
     left: 10%;
@@ -52,6 +57,14 @@
     background-color: #fff;
 
 }
+=======
+    width: 350px;
+    bottom: 25%;
+    left: 10%;
+    background-color: #ffffff;
+}
+
+>>>>>>> Stashed changes
 
 
 .submition {

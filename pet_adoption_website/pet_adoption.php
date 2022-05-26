@@ -26,13 +26,13 @@
                 <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
                 <ul class="titlelist">
                     <li><a href="index.php">HOME</a></li>
-                    <li class="dropdown"><a href="liao.html">PET ADOPTION</a>
+                    <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                     <div class="dropdown-content" >
                         <p class="xiatiao">Pet Adoption FAQs</p>
                         <p class="xiatiao2">Prepare For Adopt A Pet</p>
                     </div>
                     </li>
-                    <li><a href="activity.html">ABOUT COMPANY</a></li>
+                    <li><a href="#">ABOUT COMPANY</a></li>
                     
                 </ul>
                 <div class="user">              

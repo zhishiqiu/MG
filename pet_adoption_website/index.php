@@ -67,8 +67,14 @@
                 }?>
                     
             </div>
+<<<<<<< Updated upstream
         
     </div>
+=======
+        </div>
+    </div>
+        </div>
+>>>>>>> Stashed changes
             <div class="banner">
             <div><img src="image/3.jpg">
                 <span style="position: absolute; margin-top: 200px; font-size: 70px; font-weight: 200; color: blanchedalmond;">Find your new best friend there</span>
