@@ -4,8 +4,9 @@
 	height: 100%;
 }
 .petbox {
+    display: flex;
     position:absolute;
-	width:calc(20% - 5px);
+	width: 400px;
 	height: 500px;
 	background-color: rgb(167, 161, 165);
 	left:40%;
@@ -14,6 +15,7 @@
 	padding:0 50px;
 	z-index:1000;
 	min-width:285px;
+    
 }
 .petbox .p-pic {
     position:absolute;
@@ -32,7 +34,7 @@
     position: absolute;
     height: 150px;
     width: 180px;
-    left: 250px;
+    left: 300px;
     margin-top: 40px;
 }
 .message >p {
@@ -40,23 +42,22 @@
     color:rgb(252, 246, 246);
 }
 .boxbottom {
+    display: flex;
     position: absolute;
-    height: 200px;
-    width: 350px;
-   bottom: 15%;
-   left: 10%;
+    height: 150px;
+    width: 400px;
+    bottom: 25%;
+    left: 10%;
+    
+    background-color: #fff;
+
 }
 
-.blank {
-    width: 350px;
-    height: 150px;
-    background-color: #fff;
-}
 
 .submition {
     position: absolute;
     margin-top: 420px;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 
 .submition a {

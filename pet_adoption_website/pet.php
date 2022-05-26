@@ -74,9 +74,9 @@
            <p>age: <?php echo $row["age"] ?> </p>
        </div>
        <div class="boxbottom">
-           <div class="blank">
+           
                <p><?php echo $row["remark"] ?></p>   
-           </div>
+           
        </div>
        <div class="submition">
         <a href="#">to adopt</a>

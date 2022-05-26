@@ -18,17 +18,17 @@
         <div class="header">
             <div class="container">
                 <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
-                <ul class="titlelist">
-                    <li><a href="index.php">HOME</a></li>
-                    <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
-                    <div class="dropdown-content" >
-                        <p class="xiatiao">Pet Adoption FAQs</p>
-                        <p class="xiatiao2">Prepare For Adopt A Pet</p>
-                    </div>
-                    </li>
-                    <li><a href="#com">ABOUT COMPANY</a></li>
+                    <ul class="titlelist">
+                        <li><a href="index.php">HOME</a></li>
+                        <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
+                            <div class="dropdown-content" >
+                                <p class="xiatiao">Pet Adoption FAQs</p>
+                                <p class="xiatiao2">Prepare For Adopt A Pet</p>
+                            </div>
+                        </li>
+                        <li><a href="#com">ABOUT COMPANY</a></li>
                     
-                </ul>
+                    </ul>
                 <!-- check cookie -->
                 <?php if(isset($_COOKIE["username"])){
                     echo "
@@ -67,7 +67,8 @@
                 }?>
                     
             </div>
-        </div>
+        
+    </div>
             <div class="banner">
             <div><img src="image/3.jpg">
                 <span style="position: absolute; margin-top: 200px; font-size: 70px; font-weight: 200; color: blanchedalmond;">Find your new best friend there</span>
