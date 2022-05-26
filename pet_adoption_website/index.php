@@ -214,6 +214,10 @@
                         <a href="#"><h3>Location-based service Terms</h3></a>
                     </span>                   
                 </div>
+                <div class="footer-two">
+                    <img src="image/liantu.png">
+                    <p class="follow">Follow Us</p>
+                </div>
                
                
             </div>
