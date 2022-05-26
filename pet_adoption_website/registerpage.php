@@ -15,7 +15,7 @@
             <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
             <ul class="titlelist">
                 <li><a href="index.php">HOME</a></li>
-                <li class="dropdown"><a href="pet_adoption.phpl">PET ADOPTION</a>
+                <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                 <div class="dropdown-content" >
                         <p class="xiatiao">Pet Adoption FAQs</p>
                         <p class="xiatiao2">Prepare For Adopt A Pet</p>
@@ -53,7 +53,7 @@
 			</form>
 			<div class="logocaozuo">
 				<div><a href="#"></a></div>
-				<div><a href="loginpage.php">Already have an account? Go to login</a></div>
+				<div><a href="login.html">Already have an account? Go to login</a></div>
 			</div>
 		</div>
         
