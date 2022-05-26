@@ -1,8 +1,10 @@
-<?php 
-include("connect.php");
+<?php
+    include("connect.php");
 
-$pet_id = $_GET["id"];
-
+    $pet_id = $_GET["id"];
+    $sql = "select * from pet where id = $pet_id";
+    $result = $result = $conn -> query($sql);
+    $row = mysqli_fetch_assoc($result);
 ?>
 
 <!DOCTYPE html>
@@ -65,14 +67,15 @@ $pet_id = $_GET["id"];
         </div>
     </div>
     <div class="petbox">
-       <div class="p-pic"><img src=""></div>
+       <div class="p-pic"><img src=" <?php echo $row["pic"] ?>"></div>
        <div class="message">
-           <p >petname:</p>
-           <p>petsex:</p>
-           <p>age:</p>
+           <p >petname: <?php echo $row["petName"] ?> </p>
+           <p>petsex: <?php echo $row["sex"] ?> </p>
+           <p>age: <?php echo $row["age"] ?> </p>
        </div>
        <div class="boxbottom">
-           <div class="blank">   
+           <div class="blank">
+               <p><?php echo $row["remark"] ?></p>   
            </div>
        </div>
        <div class="submition">

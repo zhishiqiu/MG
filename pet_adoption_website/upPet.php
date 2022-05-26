@@ -86,7 +86,8 @@ if(!isset($_COOKIE['username'])){
 					</tr>
 					<tr class="inner-main">
 						<td>sex：</td>
-						<td><input type="radio" name="sex" value="male">male<br>
+						<td>
+							<input type="radio" name="sex" value="male">male
 							<input type="radio" name="sex" value="female">female
 						</td>
 					</tr>
@@ -100,7 +101,8 @@ if(!isset($_COOKIE['username'])){
 					</tr>
 					<tr class="inner-main">
 						<td>whether to vaccinate：</td>
-						<td><input type="radio" name="vacc" value="yes">yes<br>
+						<td>
+							<input type="radio" name="vacc" value="yes">yes
 							<input type="radio" name="vacc" value="no"> no
 						</td>
 					</tr>

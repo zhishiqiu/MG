@@ -50,7 +50,7 @@
 		</div>
         <div class="user-nav">
 			<ul>
-				<li><a href="">发布内容</a></li>
+				<li><a href="upPet.php">发布内容</a></li>
 				<li><a href="">宠物领养</a></li>
 			
 			</ul>
