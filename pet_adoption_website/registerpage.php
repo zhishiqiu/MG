@@ -57,7 +57,8 @@
 			</div>
 		</div>
         
+        
+</body>
         <script type = "text/javascript" src="script/jquery.js"></script>
         <script type="text/javascript" src="script/login.js"></script>
-</body>
 </html>

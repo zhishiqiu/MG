@@ -43,9 +43,12 @@ a {
 }
 
 .header .logo {
+	display: flex;
+	flex-direction: row;
 	float: left;
 	height: 100%;
 	width: 70px;
+	
 }
 
 

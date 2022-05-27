@@ -68,9 +68,34 @@
                         <p>7. Cost</p>
                         <p>In addition to the cost of buying pets, you will also need to buy them a range of things they usually need. Over time, the cost of a good diet will far exceed anything you pay for an animal. It may also require expensive veterinary care, grooming and babysitting fees.</p>
                     </div>
+                    <div class="payattention">
+                        <p>10. What types of pets should I consider?</p>
+                        <p>Most dogs are smart, loyal, happy, and obedient. They are closely related to their owners. But if you want them to grow healthy and strong, you need to spend a lot of time</p>
+                        <p>Cats have been kept as pets since Egypt. They are more independent than dogs and can tolerate loneliness, can spend a day on their own, and thrive even on their own.</p>
+                    </div>
                 </div>    
             </div>
         </div>
     </div>
+     <div class="foottop"></div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-yi"> 
+                        <h1>PetCompany</h1>
+                        <h2>Contact us</h2>
+                    <span>
+                        <a href="#" ><h3>Terms of service</h3></a>
+                        <a href="#"><h3>Privacy policy</h3></a>
+                        <a href="#"><h3>Location-based service Terms</h3></a>
+                    </span>                   
+                </div>
+                <div class="footer-two">
+                    <img src="image/liantu.png">
+                    <p class="follow">Follow Us</p>
+                </div>
+               
+               
+            </div>
+        </div>
 </body>
 </html>

@@ -16,19 +16,20 @@
 <body>
     
         <div class="header">
-            <div class="container">
+            <div class="container" >
                 <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
                     <ul class="titlelist">
                         <li><a href="index.php">HOME</a></li>
                         <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                             <div class="dropdown-content" >
                                 <a href="pet_adoption_FAQs.html"><p class="xiatiao">Pet Adoption FAQs</p></a>
-                                <a href="prepare.html"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
+                                <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                             </div>
                         </li>
                         <li><a href="#com">ABOUT COMPANY</a></li>
                     
                     </ul>
+            
                 <!-- check cookie -->
                 <?php if(isset($_COOKIE["username"])){
                     echo "
@@ -68,8 +69,7 @@
             </div>
         </div>
 
-    
-        </div>
+    </div>
         <div class="head">
         <div class="banner">
             <div><img src="image/3.jpg">
@@ -86,7 +86,11 @@
                 <li>&lt;</li>
                 <li>&gt;</li>
             </ul>
-           
+            <ul class="smallbutton">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
 
         <div class="center">
@@ -226,9 +230,11 @@
             </div>
         </div>
         <script type = "text/javascript" src="script/js.js"></script>
-        
         <script type = "text/javascript" src="script/jquery.js"></script>
-        <script type="text/javascript" src="script/login.js"></script>
+        <script type="text/javascript" src="script/logo.js"></script>
      
 </body>
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type = "text/javascript" src="script/js.js"></script>
+
 </html>

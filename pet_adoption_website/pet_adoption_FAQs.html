@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Adoption FAQs</title>
     <link rel="stylesheet" type="text/css" href="style/public.css" />
-
+    <link rel="stylesheet" type="text/css" href="style/prepare.css" />
+    <link rel="stylesheet" type="text/css" href="style/petFAQs.css" />
 </head>
 <body>
     <div class="header">
@@ -14,28 +15,41 @@
             <div class="logo"><a href="index.html"><img src="image/maologo.jpg" ></a></div>
             <ul class="titlelist">
                 <li><a href="index.html">HOME</a></li>
-                <li class="dropdown"><a href="liao.html">PET ADOPTION</a>
+                <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                     <div class="dropdown-content" >
-                        <p class="xiatiao">Pet Adoption FAQs</p>
-                        <p>Prepare For Adopt A Pet</p>
+                        <a href="pet_adoption_FAQs.html"><p class="xiatiao">Pet Adoption FAQs</p></a>
+                        <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                     </div>
                 </li>
                 <li><a href="activity.html">ABOUT COMPANY</a></li>
                 
             </ul>
             <div class="dengru">
-                <div><a href="login.html">LOGIN</a></div>
-                <div><a href="register.html">SIGN UP</a></div>
+                <div><a href="loginpage.php">LOGIN</a></div>
+                <div><a href="registerpage.php">SIGN UP</a></div>
             </div>
         </div>
     </div>
-    <div class="card-section">
-        <div class="yemei">
-            <ol class="breadcrumb">
-                <li>
-
-                </li>
-            </ol>
+    <div class="knowledge">
+        <div class="module_container">
+            <div class="container_header">
+                <p class="title">Pet Adoption FAQs</p>
+                <p class="subtitle">love him with all your heart</p>
+            </div>
+            <div class="container_content">
+                <div class="yetou">
+                <p>The following links will take you to some of the most frequently asked questions about adopting a pet that you see on Petfinder. If you can’t find the answer below, please contact us (see the bottom of this page) with any additional questions you have.</p>
+                </div>
+                <div class="">
+                    <p>
+                        <strong>
+                            <a onclick="jQuery('#adopt').toggle();return false;" href="#">How Do I Search For a Pet? </a>
+                        </strong>
+                    </p>
+                    <div id="adopt"style="display:none;">Petfinder.com is a searchable list of pets from over 11,000 shelters and rescue groups across the US, Canada, and Mexico. To find an adoptable pet, you can begin your search using “Find a Pet” located above. Since Petfinder is updated regularly, we recommend that you keep checking back or create a saved search email alert to be notified when new pets matching your search criteria are added to the site.</div>
+                </div>
+                
+            </div>
         </div>
     </div>
     
