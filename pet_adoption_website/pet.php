@@ -60,31 +60,25 @@
                 </div>
 
             </div>
-</div>
+        </div>
     <div class="head">
         <div class="banner">
             <img src="image/pp3.jpg">
         </div>
     </div>
     <div class="petbox">
-       <div class="p-pic"><img src=" <?php echo $row["pic"] ?>"></div>
-       <div class="message">
-           <p >petname: <?php echo $row["petName"] ?> </p>
-           <p>petsex: <?php echo $row["sex"] ?> </p>
-           <p>age: <?php echo $row["age"] ?> </p>
-       </div>
-       <div class="boxbottom">
-
-
-           
-               <p><?php echo $row["remark"] ?></p>   
-
+        <div class="p-pic"><img src=" <?php echo $row["pic"] ?>"></div>
+        <div class="message">
+            <p >petname: <?php echo $row["petName"] ?> </p>
+            <p>petsex: <?php echo $row["sex"] ?> </p>
+            <p>age: <?php echo $row["age"] ?> </p>
+        </div>
+        <div class="boxbottom">
             <p><?php echo $row["remark"] ?></p>   
-
-       </div>
-       <div class="submition">
-        <a href="#">to adopt</a>
-       </div>
+        </div>
+        <div class="submition">
+            <a href="#">to adopt</a>
+        </div>
 
     </div>
 </div>
