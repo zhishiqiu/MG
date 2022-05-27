@@ -75,8 +75,12 @@
        </div>
        <div class="boxbottom">
 
+
            
                <p><?php echo $row["remark"] ?></p>   
+
+            <p><?php echo $row["remark"] ?></p>   
+
        </div>
        <div class="submition">
         <a href="#">to adopt</a>
