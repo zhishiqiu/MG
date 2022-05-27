@@ -74,12 +74,9 @@
            <p>age: <?php echo $row["age"] ?> </p>
        </div>
        <div class="boxbottom">
-<<<<<<< Updated upstream
+
            
                <p><?php echo $row["remark"] ?></p>   
-           
-=======
->>>>>>> Stashed changes
        </div>
        <div class="submition">
         <a href="#">to adopt</a>

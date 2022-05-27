@@ -22,8 +22,8 @@
                         <li><a href="index.php">HOME</a></li>
                         <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                             <div class="dropdown-content" >
-                                <p class="xiatiao">Pet Adoption FAQs</p>
-                                <p class="xiatiao2">Prepare For Adopt A Pet</p>
+                                <a href="pet_adoption_FAQs.html"><p class="xiatiao">Pet Adoption FAQs</p></a>
+                                <a href="prepare.html"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                             </div>
                         </li>
                         <li><a href="#com">ABOUT COMPANY</a></li>

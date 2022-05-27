@@ -113,6 +113,10 @@ a {
 	height: 120px;
 	
 }
+.dropdown-content a {
+	text-decoration: none;
+	color: #fff;
+}
 .dropdown-content p {
 	font-family:  Georgia, serif;
 }
