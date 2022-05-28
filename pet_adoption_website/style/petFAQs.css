@@ -15,3 +15,52 @@ p {
     margin-inline-end: 0px;
     
 }
+.drop {
+    position: relative;
+    display:inline-block;
+    height: auto;
+   width: 100%;
+  
+
+}
+#adopt {
+    display: none;
+    position: relative;
+    width: 1000px;
+    font-size: 14px;
+    color: rgb(214, 119, 135);
+}
+.drop>p {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.drop>p>strong a {
+    color: gray;
+}
+.drop a :link{
+    color: palevioletred;
+}
+.drop:hover #adopt {
+    display: block;
+}
+ul>li a{
+    color:rgb(170, 169, 169) ;
+}
+ul{
+    
+    margin-left: 10px;
+    position: relative;
+    list-style-type: disc;
+    font-size: 15px;
+}
+#notified {
+    display: none;
+    position: relative;
+}
+.container_content >ul>li:hover #notified {
+    display: block;
+}
+ul>li {
+    text-decoration: none;
+    color: rgb(214, 119, 135);
+}
