@@ -47,7 +47,7 @@
     <div class="logobox">
         <h1>LOGIN</h1>
         
-        <form action="login.php" method="post">
+        <form action="php/login.php" method="post">
             <div class="logolable"><lable>Username</lable></div>
             <div class="logoinput" ><input type="text" id="username" name="username" ></div>
             <div class="logolable"><lable>Password</lable></div>

@@ -44,7 +44,7 @@ include('connect.php');
                                 <div> <?php echo $_COOKIE['username']?> </div>
                             </div>
                             <div class="item_manage manage_info">
-                                <div><a href="logout.php" title="logout">Sign out</a></div>
+                                <div><a href="php/logout.php" title="logout">Sign out</a></div>
                                 
                             </div>
                             <div class="item_manage manage_info">

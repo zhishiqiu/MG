@@ -118,7 +118,7 @@ if(!isset($_COOKIE['username'])){
 				<div class="cont-btn">
 					<input class="button" type="submit" value="submit">
 				</div>
-				</form>
+			</form>
 		</div>
 	</div>
 </body>
