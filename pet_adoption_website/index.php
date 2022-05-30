@@ -22,7 +22,7 @@
                         <li><a href="index.php">HOME</a></li>
                         <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                             <div class="dropdown-content" >
-                                <a href="pet_adoption_FAQs.html"><p class="xiatiao">Pet Adoption FAQs</p></a>
+                                <a href="pet_adoption_FAQs.php"><p class="xiatiao">Pet Adoption FAQs</p></a>
                                 <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                             </div>
                         </li>
@@ -45,7 +45,7 @@
                                 <div> " . $_COOKIE["username"] . " </div>
                             </div>
                             <div class='item_manage manage_info'>
-                                <div><a href='php/logout.php' title='logout'>Sign out</a></div>
+                                <div><a href='logout.php' title='logout'>Sign out</a></div>
                                 
                             </div>
                             <div class='item_manage manage_info'>
