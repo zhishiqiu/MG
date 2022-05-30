@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>backstage</title>
+    <link rel="stylesheet" href="../../node_modules/layui/dist/css/layui.css">
+</head>
     
 </head>
 <body class="layui-layout-body">
 	<!--判断是否已经登录，如果没有，跳转到登录页-->
       <?php
-        session_start();
-         if($_SESSION['admin']!=="admin"){echo "<script>location.href='adminlogin.php';</script>";
-  }
   ?>
   <!--正式页面开始-->
         <div class="layui-layout layui-layout-admin">
@@ -28,7 +27,7 @@
             </ul>
             <ul class="layui-nav layui-layout-right">
            
-              <li class="layui-nav-item"><a href="d48643a96a96925336b3ab966f72d583.php?logout">退出登录</a></li>
+              <li class="layui-nav-item"><a href="">退出登录</a></li>
             </ul>
           </div>
             <!--2.左侧导航-->
@@ -77,7 +76,7 @@
           
 
         </div>
-        <script src="../public/layui/layui.all.js"></script>
+        <script src="../../node_modules/layui/layui.all.js"></script>
         <script>
             //添加事件执行
             layui.use('element', function(){
