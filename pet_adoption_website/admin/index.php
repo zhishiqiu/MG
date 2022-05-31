@@ -76,7 +76,7 @@
     Copyright © 2018 idcs.vip All Rights Reserved.
   </div>
 </div>
-<script src="layui.js"></script>
+<script src="../../node_modules/layui/dist/layui.js"></script>
 <script>
 //JavaScript代码区域
 layui.use('element', function(){
