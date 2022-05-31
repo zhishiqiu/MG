@@ -75,7 +75,7 @@
 
   <div class="layui-body">
     <!-- 内容主体区域 -->
-    <p>hello this is index page</p>
+    <p>hello this is user management page</p>
   </div>
 
   <div class="layui-footer">
