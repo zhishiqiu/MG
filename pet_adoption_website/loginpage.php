@@ -1,6 +1,6 @@
 <?php
     if(isset($_COOKIE['username'])){
-        header("refresh:0;url=userpage.php");
+        header("refresh:0;url=index.php");
     }
 ?>
 
