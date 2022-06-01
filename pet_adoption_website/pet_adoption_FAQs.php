@@ -8,26 +8,58 @@
     <link rel="stylesheet" type="text/css" href="style/public.css" />
     <link rel="stylesheet" type="text/css" href="style/prepare.css" />
     <link rel="stylesheet" type="text/css" href="style/petFAQs.css" />
+    <link rel="stylesheet" type="text/css" href="style/user.css" />
 </head>
 <body>
     <div class="header">
         <div class="container">
-            <div class="logo"><a href="index.html"><img src="image/maologo.jpg" ></a></div>
+            <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
             <ul class="titlelist">
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                     <div class="dropdown-content" >
-                        <a href="pet_adoption_FAQs.html"><p class="xiatiao">Pet Adoption FAQs</p></a>
+                        <a href="pet_adoption_FAQs.php"><p class="xiatiao">Pet Adoption FAQs</p></a>
                         <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                     </div>
                 </li>
                 <li><a href="activity.html">ABOUT COMPANY</a></li>
                 
             </ul>
-            <div class="dengru">
-                <div><a href="loginpage.php">LOGIN</a></div>
-                <div><a href="registerpage.php">SIGN UP</a></div>
-            </div>
+
+            <?php if(isset($_COOKIE["username"])){
+                    echo "
+                    <div class='user'>              
+                            <a href='#'>
+                                <img class='jiantou' src='image/jiantou.png' >
+                                <img class='userimage' src='image/user.jpg' >
+                            </a>
+                        
+                         
+                        <div class='manage-cont'>
+                            <div class='item_manage manage_info'>
+                                <div> " . $_COOKIE["username"] . " </div>
+                            </div>
+                            <div class='item_manage manage_info'>
+                                <div><a href='logout.php' title='logout'>Sign out</a></div>
+                                
+                            </div>
+                            <div class='item_manage manage_info'>
+                                <div>
+                                    <a href='userhome.php'>Your profile</a>
+                                </div>
+                            </div>
+                        </div>         
+                    </div>
+                ";
+                    
+                }else{
+                    echo "
+                    <div class='dengru'>
+                        <div><a href='loginpage.php'>LOGIN</a></div>
+                        <div><a href='registerpage.ph'>SIGN UP</a></div>
+                    </div>
+                    ";
+                }?>
         </div>
     </div>
     <div class="knowledge">
