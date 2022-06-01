@@ -49,7 +49,7 @@
       <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
       <ul class="layui-nav layui-nav-tree"  lay-filter="test">
         <li class="layui-nav-item">
-          <a href="index.php"><i class="layui-icon layui-icon-home"></i>首页</a>
+          <a href="index.php"><i class="layui-icon layui-icon-home"> </i>首页</a>
         </li>
         <li class="layui-nav-item">
           <a href="javascript:;">用户管理</a>
