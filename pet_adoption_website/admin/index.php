@@ -60,7 +60,7 @@
         <li class="layui-nav-item">
           <a href="javascript:;">宠物管理</a>
           <dl class="layui-nav-child">
-            <dd><a href="javascript:;">宠物信息</a></dd>
+            <dd><a href="pet_management.php">宠物信息</a></dd>
         </li>
         <li class="layui-nav-item">
           <a href="javascript:;">领养申请</a>

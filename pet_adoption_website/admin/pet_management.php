@@ -49,7 +49,7 @@
       <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
       <ul class="layui-nav layui-nav-tree"  lay-filter="test">
         <li class="layui-nav-item">
-          <a href="index.php"><i class="layui-icon layui-icon-home"></i>首页</a>
+          <a href="index.php"><i class="layui-icon layui-icon-home"> </i>首页</a>
         </li>
         <li class="layui-nav-item">
           <a href="javascript:;">用户管理</a>
@@ -75,30 +75,39 @@
 
   <div class="layui-body">
     <!-- 内容主体区域 -->
-    <h1>hello this is user management page</h1>
     <table class="layui-table">
         <thead>
             <tr>
-                <th>user_id</th>
-                <th>user_name</th>
-                <th>password</th>
-                <th>create time</th>
-                <th>option</th>
+                <th>pet_id</th>
+                <th>pet_name</th>
+                <th>pic</th>
+                <th>pet_type</th>
+                <th>sex</th>
+                <th>age</th>
+                <th>place</th>
+                <th>vacc</th>
+                <th>tel</th>
+                <th>remark</th>
             </tr>
         </thead>
         <tbody>
             <?php 
-                $sql1="SELECT * from users";
-                $result = $conn -> query($sql1);
+                $sql2="SELECT * from pet";
+                $result = $conn -> query($sql2);
                 if($result -> num_rows > 0){
                     while ($row = mysqli_fetch_assoc($result)){
                         echo 
                         "<tr>
                             <td>". $row["id"] ."</td>
-                            <td>". $row["username"] ."</td>
-                            <td>". $row["password"] ."</td>
-                            <td>". $row["create_time"] ."</td>
-                            <td></td>
+                            <td>". $row["petName"] ."</td>
+                            <td>". $row["pic"] ."</td>
+                            <td>". $row["petType"] ."</td>
+                            <td>". $row["sex"] ."</td>
+                            <td>". $row["age"] ."</td>
+                            <td>". $row["place"] ."</td>
+                            <td>". $row["vacc"] ."</td>
+                            <td>". $row["tel"] ."</td>
+                            <td>". $row["remark"] ."</td>
                         </tr>
                         ";
                     }
