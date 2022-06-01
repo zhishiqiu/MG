@@ -100,7 +100,7 @@
                         "<tr>
                             <td>". $row["id"] ."</td>
                             <td>". $row["petName"] ."</td>
-                            <td>". $row["pic"] ."</td>
+                            <td> <img src='../".$row['pic'] ."'></td>
                             <td>". $row["petType"] ."</td>
                             <td>". $row["sex"] ."</td>
                             <td>". $row["age"] ."</td>
