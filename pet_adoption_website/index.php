@@ -109,14 +109,14 @@
                             <h2>Prepare For Adopt a Pet</h2>
                             <p>Helping people who haven't made up their minds about having a pet</p>
                             <div class="botton">
-                                <a href="#">Learn More</a>
+                                <a href="prepare.php">Learn More</a>
                             </div>
                         </div>
                         <div class="field_item">
                             <h2>Pet Adoption FAQs </h2>
                             <p>Get answers to questions you haven't thought of</p>
                             <div class="botton">
-                                <a href="#">Learn More</a>
+                                <a href="pet_adoption_FAQs.php">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@
 
         <div class="center-2">
             <ul class="imglist imglistone">
-                <li><a href="#">
+                <li><a href="pet_adoption.php">
                     <img src="image/maolizi2.jpg">
                     <div class="text">
                         <div>
@@ -143,7 +143,7 @@
                 </a>
                </li>
 
-                <li><a href="#">
+                <li><a href="pet_adoption.php">
                     <img src="image/maolizi3.jpg">
                     <div class="text">
                         <div>
@@ -157,7 +157,7 @@
             </ul>
             <ul class="imglist imglisttwo">
                 <li>
-                    <a href="#">
+                    <a href="pet_adoption.php">
                         <img src="image/goulizi.jpg">
                         <div class="text">
                             <div>
@@ -168,7 +168,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="pet_adoption.php">
                         <img src="image/goulizi2.jfif">
                         <div class="text">
                             <div>
@@ -179,7 +179,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="pet_adoption.php">
                         <img src="image/goulizi3.jpg">
                         <div class="text">
                             <div>

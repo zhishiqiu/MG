@@ -49,11 +49,10 @@
 			</div>
 		</div>
         <div class="user-nav">
-			<ul>
-				<li><a href="upPet.php">发布内容</a></li>
-				<li><a href="">宠物领养</a></li>
 			
-			</ul>
+            <div class="first"><a href="upPet.php">Post Content</a></div>
+			<div class="second"><a href="pet_adoption.php">Pet Adoption</a></div>
+            
 		</div>
 </body>
 </html>

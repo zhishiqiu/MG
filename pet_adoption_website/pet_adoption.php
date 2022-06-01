@@ -28,8 +28,8 @@
                     <li><a href="index.php">HOME</a></li>
                     <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                     <div class="dropdown-content" >
-                        <p class="xiatiao">Pet Adoption FAQs</p>
-                        <p class="xiatiao2">Prepare For Adopt A Pet</p>
+                        <a href="pet_adoption_FAQs.php"><p class="xiatiao">Pet Adoption FAQs</p></a>
+                        <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                     </div>
                     </li>
                     <li><a href="#">ABOUT COMPANY</a></li>
@@ -64,7 +64,7 @@
     </div>
    
     <div class="picture"><img src="image/petadopition.jpg"></div>
-    <div class="chaxun"></div>
+  
     <div class="cen">
         <div class="adoption img1">
             <?php if($result -> num_rows > 0){
