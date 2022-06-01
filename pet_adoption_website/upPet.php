@@ -1,6 +1,6 @@
 <?php 
 if(!isset($_COOKIE['username'])){
-    header("refresh:0;url=login.php");
+    header("refresh:0;url=loginpage.php");
 }
 ?>
 
@@ -63,13 +63,13 @@ if(!isset($_COOKIE['username'])){
             <div><img src="image/fabu1.jpg"></div>
         </div>
     </div>
-	<div class="bx"></div>
+	
 
 	<div class="fabucontent">
 			<div class="cont-title">
 				<h2>Post Content</h2>
 			</div>
-			<div class="cont-inner">
+		<div class="cont-inner">
 			<form action="php/uploadPet.php" method="post" enctype="multipart/form-data">
 				<table>
 					<tr class="inner-main">

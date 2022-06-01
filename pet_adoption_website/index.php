@@ -17,8 +17,8 @@
     
         <div class="header">
             <div class="container" >
-                <div class="logo"><a href="index.php"><img src="image/maologo.jpg" ></a></div>
-                    <ul class="titlelist">
+                <div class="logo" ><a href="index.php"><img src="image/maologo.jpg" ></a></div>
+                    <ul class="titlelist" >
                         <li><a href="index.php">HOME</a></li>
                         <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                             <div class="dropdown-content" >
