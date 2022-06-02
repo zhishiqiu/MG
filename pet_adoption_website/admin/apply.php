@@ -72,29 +72,34 @@
 
   <div class="layui-body">
     <!-- 内容主体区域 -->
-    <h1>hello this is user management page</h1>
     <table class="layui-table">
         <thead>
             <tr>
-                <th>user_id</th>
-                <th>user_name</th>
-                <th>password</th>
-                <th>create time</th>
+                <th>adopt_id</th>
+                <th>adopt_user_name</th>
+                <th>name</th>
+                <th>age</th>
+                <th>tel</th>
+                <th>palce</th>
+                <th>adopt_pet_id</th>
                 <th>option</th>
             </tr>
         </thead>
         <tbody>
             <?php 
-                $sql1="SELECT * from users";
-                $result = $conn -> query($sql1);
+                $sql2="SELECT * from adopt";
+                $result = $conn -> query($sql2);
                 if($result -> num_rows > 0){
                     while ($row = mysqli_fetch_assoc($result)){
                         echo 
                         "<tr>
                             <td>". $row["id"] ."</td>
                             <td>". $row["username"] ."</td>
-                            <td>". $row["password"] ."</td>
-                            <td>". $row["create_time"] ."</td>
+                            <td>". $row["name"] ."</td>
+                            <td>". $row["age"] ."</td>
+                            <td>". $row["tel"] ."</td>
+                            <td>". $row["place"] ."</td>
+                            <td>". $row["pet_id"] ."</td>
                             <td></td>
                         </tr>
                         ";

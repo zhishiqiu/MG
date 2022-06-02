@@ -34,10 +34,10 @@
           <img src="../image/user.jpg" class="layui-nav-img">
           root
         </a>
-        <dl class="layui-nav-child">
+        <!-- <dl class="layui-nav-child">
           <dd><a href="">基本资料</a></dd>
           <dd><a href="">安全设置</a></dd>
-        </dl>
+        </dl> -->
       </li>
       <li class="layui-nav-item"><a href="../logout.php">logout</a></li>
     </ul>
@@ -63,10 +63,7 @@
             <dd><a href="pet_management.php">宠物信息</a></dd>
         </li>
         <li class="layui-nav-item">
-          <a href="javascript:;">领养申请</a>
-          <dl class="layui-nav-child">
-            <dd><a href="javascript:;">待申请</a></dd>
-            <dd><a href="javascript:;">已申请</a></dd>
+          <a href="apply.php">领养申请</a>
         </li>
           
       </ul>
@@ -88,6 +85,7 @@
                 <th>vacc</th>
                 <th>tel</th>
                 <th>remark</th>
+                <th>option</th>
             </tr>
         </thead>
         <tbody>
@@ -108,6 +106,7 @@
                             <td>". $row["vacc"] ."</td>
                             <td>". $row["tel"] ."</td>
                             <td>". $row["remark"] ."</td>
+                            <td></td>
                         </tr>
                         ";
                     }

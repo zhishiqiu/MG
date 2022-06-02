@@ -2,6 +2,8 @@
     if(!isset($_COOKIE['username'])){
         header("refresh:0;url=loginpage.php");
     }
+
+    $pet_id = $_GET["id"];
 ?>
 
 <!DOCTYPE html>
@@ -86,6 +88,10 @@
                 <tr class="inner-main">
                     <td>place ： </td>
                     <td><input type="text" name="adoption_place"></td>
+                </tr>
+                <tr class="inner-main">
+                    <td>pet_id : </td>
+                    <td><input type="text" name="adoption_pet_id" value=" <?php echo $pet_id?> "></td>
                 </tr>
             </table>
             <div class="cont-btn">

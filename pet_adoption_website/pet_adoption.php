@@ -4,7 +4,7 @@
     }
 
     require_once 'connect.php';
-    $sql = "SELECT id, petName, petType, sex, pic , remark from pet";
+    $sql = "SELECT id, petName, petType, sex, pic , remark from pet where state != 1";
     $result = $conn -> query($sql);
 ?>
 

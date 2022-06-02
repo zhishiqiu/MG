@@ -77,7 +77,7 @@
             <p><?php echo $row["remark"] ?></p>   
         </div>
         <div class="submition">
-            <a href="to_adopt.php">to adopt</a>
+            <a href="to_adopt.php?id= <?php echo $pet_id?>">to adopt</a>
         </div>
 
     </div>

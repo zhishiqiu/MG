@@ -7,8 +7,9 @@ $name = $_POST["adoption_name"];
 $age = $_POST['adoption_age'];
 $tel = $_POST['adoption_tel'];
 $place = $_POST['adoption_place'];
-$sql = "insert into adopt(username,name,age,tel,place)
-    values('$adopt_username','$name','$age','$tel','$place')";
+$pet_id = $_POST['adoption_pet_id'];
+$sql = "insert into adopt(username,name,age,tel,place,pet_id)
+    values('$adopt_username','$name','$age','$tel','$place','$pet_id')";
 $result=$conn->query($sql);
 	
 if($result){
