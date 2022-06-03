@@ -28,14 +28,14 @@
                         <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                     </div>
                 </li>
-                <li><a href="activity.html">ABOUT COMPANY</a></li>
+                <li><a href="index.php">ABOUT COMPANY</a></li>
                 
             </ul>
 
             <?php if(isset($_COOKIE["username"])){
                     echo "
                     <div class='user'>              
-                            <a href='#'>
+                            <a href='userhome.php'>
                                 <img class='jiantou' src='image/jiantou.png' >
                                 <img class='userimage' src='image/user.jpg' >
                             </a>

@@ -17,8 +17,8 @@
                 <li><a href="index.php">HOME</a></li>
                 <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                 <div class="dropdown-content" >
-                        <p class="xiatiao">Pet Adoption FAQs</p>
-                        <p class="xiatiao2">Prepare For Adopt A Pet</p>
+                    <a href="pet_adoption_FAQs.php"><p class="xiatiao">Pet Adoption FAQs</p></a>
+                    <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                     </div>
                 </li>
                 <li><a href="index.php">ABOUT COMPANY</a></li>
@@ -52,8 +52,8 @@
 				<div class="logobutton"><input type="submit" id="Sign Up" name="Sign Up" value="Sign up" class="logobutton"></div>
 			</form>
 			<div class="logocaozuo">
-				<div><a href="#"></a></div>
-				<div><a href="login.html">Already have an account? Go to login</a></div>
+				<div><a href=""></a></div>
+				<div><a href="loginpage.php">Already have an account? Go to login</a></div>
 			</div>
 		</div>
         

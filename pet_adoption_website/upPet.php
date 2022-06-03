@@ -24,8 +24,8 @@ if(!isset($_COOKIE['username'])){
                     <li><a href="index.php">HOME</a></li>
                     <li class="dropdown"><a href="pet_adoption.php">PET ADOPTION</a>
                     <div class="dropdown-content" >
-					<a href="pet_adoption_FAQs.php"><p class="xiatiao">Pet Adoption FAQs</p></a>
-                                <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
+						<a href="pet_adoption_FAQs.php"><p class="xiatiao">Pet Adoption FAQs</p></a>
+                        <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                     </div>
                     </li>
                     <li><a href="index.php">ABOUT COMPANY</a></li>
