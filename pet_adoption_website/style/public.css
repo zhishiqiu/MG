@@ -47,7 +47,7 @@ a {
 	flex-direction: row;
 	float: left;
 	height: 100%;
-	width: 70px;
+	width: 65px;
 	
 }
 
@@ -67,7 +67,7 @@ a {
 
 .header .titlelist {
 	
-	
+	padding-left: 30px;
 	height: 100%;
 	margin-left: 20px;
 	margin: 0;
