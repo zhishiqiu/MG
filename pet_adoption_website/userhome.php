@@ -27,7 +27,7 @@
                         <a href="prepare.php"><p class="xiatiao2">Prepare For Adopt A Pet</p></a>
                     </div>
                     </li>
-                    <li><a href="#">ABOUT COMPANY</a></li>
+                    <li><a href="index.php">ABOUT COMPANY</a></li>
                     
                 </ul>
                 <!--

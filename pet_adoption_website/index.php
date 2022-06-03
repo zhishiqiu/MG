@@ -34,7 +34,7 @@
                 <?php if(isset($_COOKIE["username"])){
                     echo "
                     <div class='user'>              
-                            <a href='#'>
+                            <a href='userhome.php'>
                                 <img class='jiantou' src='image/jiantou.png' >
                                 <img class='userimage' src='image/user.jpg' >
                             </a>
