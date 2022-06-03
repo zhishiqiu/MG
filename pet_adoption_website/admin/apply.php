@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>后台管理面板</title>
+  <title>Background management page</title>
   <link rel="stylesheet" href="../../node_modules/layui/dist/css/layui.css">
 </head>
 <body class="layui-layout-body">
