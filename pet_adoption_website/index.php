@@ -61,7 +61,7 @@
                     echo "
                     <div class='dengru'>
                         <div><a href='loginpage.php'>LOGIN</a></div>
-                        <div><a href='registerpage.ph'>SIGN UP</a></div>
+                        <div><a href='registerpage.php'>SIGN UP</a></div>
                     </div>
                     ";
                 }?>

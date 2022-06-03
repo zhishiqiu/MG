@@ -75,7 +75,7 @@
                                         <img src =". $row["pic"] . ">
                                         <div class='text-con' >
                                             
-                                            <div class='dec'>" . $row["petName"] ."<br>" . $row["remark"] ."</div>
+                                            <div class='dec'> <h3>" . $row["petName"] ."</h3><br><h4>" . $row["remark"] ."</h4></div>
                                         </div>
                                     </a>
                                 </div>";

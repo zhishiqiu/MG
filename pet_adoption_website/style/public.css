@@ -54,7 +54,7 @@ a {
 
 
 .header .logo>a {
-	
+	display: flex !important;
 	display: block;
 	
 	width: 100%;
@@ -62,7 +62,7 @@ a {
 }
 
 .header .logo>a>img {
-	
+	display: flex !important;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -71,6 +71,7 @@ a {
 }
 
 .header .titlelist {
+	display: flex;
 	position: absolute;
 	height: 100%;
 	width: auto;
@@ -252,6 +253,12 @@ a {
 	color: #404040;
 	margin: 0;
 }
+.imglist>li>a>.text>h4 {
+	color: #404040;
+	margin: 0;
+	text-align: center;
+	line-height: 30px;
+}
 
 .imglistone>li {
 	width: 45%;
@@ -275,6 +282,7 @@ a {
 
 .imglistone>li>a>.text>h3 {
 	font-size: 16px;
+	text-align: center;
 }
 
 .imglistone>li>a>.text>p {
@@ -308,6 +316,7 @@ a {
 
 .imglisttwo>li>a>.text>h3 {
 	font-size: 14px;
+	text-align: center;
 }
 
 
