@@ -136,9 +136,13 @@
                     <img src="image/maolizi2.jpg">
                     <div class="text">
                         <div>
-                            <i class="iconfont icon-yanjing"></i><span>10000</span>
+                            <!--
+                            <i class="iconfont icon-yanjing"></i>
+                            <span>10000</span>
+            -->
                         </div>
-                        <h3>.............</h3>
+                        <h3>Mimi</h3>
+                        <h4>Usually very naughty, be sure to buy two more cat scratching boards.</h4>
                     </div>
                 </a>
                </li>
@@ -147,10 +151,13 @@
                     <img src="image/maolizi3.jpg">
                     <div class="text">
                         <div>
+                            <!--
                             <i class="iconfont icon-yanjing"></i>
                             <span>10000</span>
+            -->
                         </div>
-                        <h3>.............</h3>
+                        <h3>Amliy</h3>
+                        <h4>She is a typical civet cat, usually very quiet.</h4>
                     </div>
                 </a></li>
                 
@@ -161,9 +168,13 @@
                         <img src="image/goulizi.jpg">
                         <div class="text">
                             <div>
-                                <i class="iconfont icon-yanjing"></i><span>10000</span>
+                                <!--
+                            <i class="iconfont icon-yanjing"></i>
+                            <span>10000</span>
+            -->
                             </div>
-                            <h3>.............</h3>
+                            <h3>Mike</h3>
+                            <h4>Friends often say he looks like a white fox.</h4>
                         </div>
                     </a>
                 </li>
@@ -172,9 +183,13 @@
                         <img src="image/goulizi2.jfif">
                         <div class="text">
                             <div>
-                                <i class="iconfont icon-yanjing"></i><span>10000</span>
+                               <!--
+                            <i class="iconfont icon-yanjing"></i>
+                            <span>10000</span>
+            -->
                             </div>
-                            <h3>.............</h3>
+                            <h3>Wangwang</h3>
+                            <h4>Don't look at his short legs, he runs very fast.</h4>
                         </div>
                     </a>
                 </li>
@@ -183,9 +198,13 @@
                         <img src="image/goulizi3.jpg">
                         <div class="text">
                             <div>
-                                <i class="iconfont icon-yanjing"></i><span>10000</span>
+                                <!--
+                            <i class="iconfont icon-yanjing"></i>
+                            <span>10000</span>
+            -->
                             </div>
-                            <h3>.............</h3>
+                            <h3>Bob</h3>
+                            <h4>He's a naughty boy, but always amused.</h4>
                         </div>
                     </a>
                 </li>
