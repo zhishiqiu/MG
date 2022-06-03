@@ -1,5 +1,10 @@
 <?php 
     require "../connect.php";
+
+    $user_id = $_GET["id"];
+    $sql4="SELECT * from users where id = $user_id";
+    $result = $conn -> query($sql4);
+    $row = mysqli_fetch_assoc($result);
 ?>
 
 <!DOCTYPE html>
@@ -72,39 +77,25 @@
 
   <div class="layui-body">
     <!-- 内容主体区域 -->
-    <table class="layui-table">
-        <thead>
-            <tr>
-                <th>user_id</th>
-                <th>user_name</th>
-                <th>password</th>
-                <th>create time</th>
-                <th>option</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php 
-                $sql1="SELECT * from users";
-                $result = $conn -> query($sql1);
-                if($result -> num_rows > 0){
-                    while ($row = mysqli_fetch_assoc($result)){
-                        echo 
-                        "<tr>
-                            <td>". $row["id"] ."</td>
-                            <td>". $row["username"] ."</td>
-                            <td>". $row["password"] ."</td>
-                            <td>". $row["create_time"] ."</td>
-                            <td> 
-                              <div><a href='user_change.php?id=". $row['id']."'>change</div>
-                              <div><a href='user_delete.php?id=". $row['id']."'>delect</div>
-                            </td>
-                        </tr>
-                        ";
-                    }
-                }
-            ?>
-        </tbody>
-    </table>
+    <div class="formbox">
+        <form action="api/user_change.php?id= <?php echo $user_id ?>" method="post" class="layui-form">
+            <div class="layui-form-item">
+                <lable>Username</lable>
+                <div class="layui-input-block">
+                    <input type="text" id="username" name="username" value='<?php echo $row["username"]?>'>
+				</div>
+            </div>
+            
+            <div class="layui-form-item">
+                <lable>Password</lable>
+                <div class="layui-input-block">
+                    <input type="text" id="password" name="password" value='<?php echo $row["password"]?>'>
+				</div>
+            </div>
+            
+            <div class="logobutton"><input type="submit" id="submit" name="submit" value="change"></div>
+        </form>
+    </div>
   </div>
 
   <div class="layui-footer">
@@ -119,6 +110,7 @@ layui.use('element', function(){
   var element = layui.element;
 
 });
+
 </script>
 </body>
 </html>

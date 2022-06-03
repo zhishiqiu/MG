@@ -1,5 +1,6 @@
 <?php 
     require "../connect.php";
+    $user_id = $_GET['id'];
 ?>
 
 <!DOCTYPE html>
@@ -96,7 +97,7 @@
                             <td>". $row["create_time"] ."</td>
                             <td> 
                               <div><a href='user_change.php?id=". $row['id']."'>change</div>
-                              <div><a href='user_delete.php?id=". $row['id']."'>delect</div>
+                              <div><a href='user_delect.php?id=". $row['id']."'>delect</div>
                             </td>
                         </tr>
                         ";
@@ -119,6 +120,17 @@ layui.use('element', function(){
   var element = layui.element;
 
 });
+
+layer.open({
+  type: 1,
+  title: false,
+  closeBtn: 0,
+  shadeClose: true,
+  skin: 'layui-layer-lan',
+  content: '<div>are you sure delect this user</div> <br> <div><a href="api/user_delete.php?id=<?php echo $user_id?>">yes</div> <div><a href="user_management.php">no</div>'
+});
+
+
 </script>
 </body>
 </html>
