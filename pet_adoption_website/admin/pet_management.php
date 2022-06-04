@@ -13,7 +13,7 @@
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
   <div class="layui-header">
-    <div class="layui-logo">宠物领养后台</div>
+    <div class="layui-logo">Pet Adoption Backend</div>
     <!-- 头部区域（可配合layui已有的水平导航） -->
     <!-- <ul class="layui-nav layui-layout-left">
       <li class="layui-nav-item"><a href="">控制台</a></li>
