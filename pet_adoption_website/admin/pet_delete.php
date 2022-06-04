@@ -1,5 +1,6 @@
 <?php 
     require "../connect.php";
+    $pet_id = $_GET['pet_id'];
 ?>
 
 <!DOCTYPE html>
@@ -128,6 +129,16 @@ layui.use('element', function(){
   var element = layui.element;
 
 });
+
+layer.open({
+  type: 1,
+  title: false,
+  closeBtn: 0,
+  shadeClose: true,
+  skin: 'layui-layer-lan',
+  content: '<div>are you sure delect this pet adopt message</div> <br> <div><a href="api/pet_delete.php?pet_id=<?php echo $pet_id?>">yes</div> <div><a href="pet_management.php">no</div>'
+});
+
 </script>
 </body>
 </html>
