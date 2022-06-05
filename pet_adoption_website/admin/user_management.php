@@ -63,7 +63,10 @@
             <dd><a href="pet_management.php">Pet Information</a></dd>
         </li>
         <li class="layui-nav-item">
-          <a href="apply.php">Adoption Application</a>
+          <a href="javascript:;">Adoption Application</a>
+          <dl class="layui-nav-child">
+            <dd><a href="applying.php">Applying</a></dd>
+            <dd><a href="applied.php">Applied</a></dd>
         </li>
           
       </ul>

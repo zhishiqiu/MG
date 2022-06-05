@@ -63,7 +63,10 @@
             <dd><a href="pet_management.php">Pet Information</a></dd>
         </li>
         <li class="layui-nav-item">
-          <a href="apply.php">Adoption Application</a>
+          <a href="javascript:;">Adoption Application</a>
+          <dl class="layui-nav-child">
+            <dd><a href="applying.php">Applying</a></dd>
+            <dd><a href="applied.php">Applied</a></dd>
         </li>
           
       </ul>
@@ -82,12 +85,11 @@
                 <th>tel</th>
                 <th>palce</th>
                 <th>adopt_pet_id</th>
-                <th>option</th>
             </tr>
         </thead>
         <tbody>
             <?php 
-                $sql2="SELECT * from adopt";
+                $sql2="SELECT * from adopt where state = 1";
                 $result = $conn -> query($sql2);
                 if($result -> num_rows > 0){
                     while ($row = mysqli_fetch_assoc($result)){
@@ -100,7 +102,6 @@
                             <td>". $row["tel"] ."</td>
                             <td>". $row["place"] ."</td>
                             <td>". $row["pet_id"] ."</td>
-                            <td> <div><a href=''>agree</div> </td>
                         </tr>
                         ";
                     }

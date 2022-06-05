@@ -1,5 +1,5 @@
 <?php 
-
+    require "../connect.php";
 ?>
 
 <!DOCTYPE html>
@@ -75,7 +75,42 @@
 
   <div class="layui-body">
     <!-- 内容主体区域 -->
-    <p>hello this is index page</p>
+    <table class="layui-table">
+        <thead>
+            <tr>
+                <th>adopt_id</th>
+                <th>adopt_user_name</th>
+                <th>name</th>
+                <th>age</th>
+                <th>tel</th>
+                <th>palce</th>
+                <th>adopt_pet_id</th>
+                <th>option</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php 
+                $sql2="SELECT * from adopt where state = 2";
+                $result = $conn -> query($sql2);
+                if($result -> num_rows > 0){
+                    while ($row = mysqli_fetch_assoc($result)){
+                        echo 
+                        "<tr>
+                            <td>". $row["id"] ."</td>
+                            <td>". $row["username"] ."</td>
+                            <td>". $row["name"] ."</td>
+                            <td>". $row["age"] ."</td>
+                            <td>". $row["tel"] ."</td>
+                            <td>". $row["place"] ."</td>
+                            <td>". $row["pet_id"] ."</td>
+                            <td> <div><a href='api/applying.php?pet_id=". $row['pet_id']." '>agree</div> </td>
+                        </tr>
+                        ";
+                    }
+                }
+            ?>
+        </tbody>
+    </table>
   </div>
 
   <div class="layui-footer">
