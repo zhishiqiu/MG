@@ -89,7 +89,7 @@
                     <td>place ： </td>
                     <td><input type="text" name="adoption_place"></td>
                 </tr>
-                <tr class="inner-main">
+                <tr class="inner-main" style="display:none ;">
                     <td>pet_id : </td>
                     <td><input type="text" name="adoption_pet_id" value=" <?php echo $pet_id?> "></td>
                 </tr>
