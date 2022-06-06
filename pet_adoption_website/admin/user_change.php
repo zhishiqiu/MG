@@ -84,17 +84,13 @@
     <div class="formbox">
         <form action="api/user_change.php?id= <?php echo $user_id ?>" method="post" class="layui-form">
             <div class="layui-form-item">
-                <lable>Username</lable>
-                <div class="layui-input-block">
-                    <input type="text" id="username" name="username" value='<?php echo $row["username"]?>'>
-				</div>
+              <lable>Username</lable>
+              <input type="text" id="username" name="username" value='<?php echo $row["username"]?>'/>
             </div>
             
             <div class="layui-form-item">
                 <lable>Password</lable>
-                <div class="layui-input-block">
-                    <input type="text" id="password" name="password" value='<?php echo $row["password"]?>'>
-				</div>
+                <input type="text" id="password" name="password" value='<?php echo $row["password"]?>'/>
             </div>
             
             <div class="logobutton"><input type="submit" id="submit" name="submit" value="change"></div>
