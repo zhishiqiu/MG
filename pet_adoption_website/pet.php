@@ -76,9 +76,17 @@
         <div class="boxbottom">
             <p><?php echo $row["remark"] ?></p>   
         </div>
-        <div class="submition">
-            <a href="to_adopt.php?id= <?php echo $pet_id?>">Adopt</a>
-        </div>
+        <?php 
+        if($row['state'] != 1){
+            echo "<div class='submition'>
+                    <a href='to_adopt.php?id= " . $pet_id . " '>Adopt</a>
+                </div>";
+        }else{
+            echo "<div class='submition'>
+                    <a href=''>Adopted</a>
+                </div>";
+        }
+        ?>
 
     </div>
 </div>

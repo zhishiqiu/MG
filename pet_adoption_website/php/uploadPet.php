@@ -18,8 +18,8 @@ $remark=$_POST['remark'];
 $destination="../image/".$filename;
 move_uploaded_file($data, $destination);
 $n="image/".$filename;
-$sql="insert into pet(pic,petType,petName,sex,age,place,vacc,tel,remark)
-    values('$n','$petType','$petName','$sex','$age','$place','$vacc','$tel','$remark')";
+$sql="insert into pet(pic,petType,petName,sex,age,place,vacc,tel,remark,username)
+    values('$n','$petType','$petName','$sex','$age','$place','$vacc','$tel','$remark','$username')";
 $result=$conn->query($sql);
 	
 if($result){

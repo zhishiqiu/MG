@@ -2,6 +2,7 @@
     if(!isset($_COOKIE['username'])){
         header("refresh:0;url=login.php");
     }
+    $username = $_COOKIE['username'];
 ?>
 
 <!DOCTYPE html>
@@ -48,6 +49,16 @@
 				</div>
 			</div>
 		</div>
+        <?php 
+        include_once"connect.php";
+        $sql="SELECT * from pet where username = $username";
+        $result = $conn -> query($sql);
+        if($result -> num_rows > 0){
+            while ($row = mysqli_fetch_assoc($result)) {
+                echo "<div></div>";
+            }
+        }
+        ?>
         <div class="user-nav">
 			
             <div class="first"><a href="upPet.php">Post Content</a></div>
