@@ -74,6 +74,7 @@
   </div>
 
   <div class="layui-body">
+    <div><p>Applying page</p></div>
     <!-- 内容主体区域 -->
     <table class="layui-table">
         <thead>

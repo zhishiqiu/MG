@@ -79,6 +79,7 @@
   </div>
 
   <div class="layui-body">
+    <div><p>User management page</p></div>
     <!-- 内容主体区域 -->
     <div class="formbox">
         <form action="api/user_change.php?id= <?php echo $user_id ?>" method="post" class="layui-form">
