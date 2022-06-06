@@ -75,7 +75,7 @@
 
   <div class="layui-body">
     <!-- 内容主体区域 -->
-    <div><p>hello this is home page</p></div>
+    <div style="text-align:center;  margin-top:50px; font:italic 7em Georgia, serif;" ><p>Welcom to admin!</p></div>
   </div>
 
   <div class="layui-footer">

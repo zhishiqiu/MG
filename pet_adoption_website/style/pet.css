@@ -5,9 +5,10 @@
 }
 .petbox {
     display: flex;
+    flex-direction: row;
     position:absolute;
 	width: 400px;
-	width:calc(28% - 5px);
+	
 	height: 500px;
 	background-color: rgb(167, 161, 165);
 	left:40%;
@@ -69,12 +70,12 @@
 .submition a {
 	display: inline-block;
 	font-weight: 700;
-	min-width: 100px;
+	min-width: 75px;
 	background-color: rgb(136, 131, 131);
 	color: #fae4f1;
 	padding: 0 30px;
 	min-height: 44px;
-	max-width: 100%;
+	max-width: 100%; ;
 	border: 2px solid #d8ced2;
 	border-radius: 23px;
 	text-decoration: none;
@@ -82,4 +83,5 @@
 	height: 40px;
 	line-height: 40px;
 	box-shadow: 5px 10px 10px rgb(122, 121, 121);
+    text-align: center;
 }

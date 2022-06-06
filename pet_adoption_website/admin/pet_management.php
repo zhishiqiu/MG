@@ -74,7 +74,7 @@
   </div>
 
   <div class="layui-body">
-    <div><p>Pet management page</p></div>
+    <div style="text-align: center; margin-top:50px; font:italic 3em Georgia, serif;"><p>Pet management page</p></div>
     <!-- 内容主体区域 -->
     <table class="layui-table">
         <thead>

@@ -69,16 +69,18 @@
 
 }
 .dec {
-    font-family: "微软雅黑"!important;
+    
     text-decoration: none;
     color: #404040;
     text-align: center;
 }
 .dec h3 {
+    font-family: "Comic Sans MS",cursive,sans-serif!important;
     position: absolute;
     text-align: center;
 }
 .dec h4 {
+    font-family: "Comic Sans MS",cursive,sans-serif!important;
     position: absolute;
     text-align: center;
 }

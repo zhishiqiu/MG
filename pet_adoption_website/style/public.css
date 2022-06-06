@@ -211,15 +211,18 @@ a {
 }
 
 .imglist>li>a>.text {
+	
 	background-color: #fff;
 	position: absolute;
 	box-shadow: 0px 10px 50px -20px #000;
 	padding: 10px;
 }
 .imglist>li>a>.text:hover h3{
+	
 	color:#FF9961 !important;
 }
 .imglist>li>a>.text:hover h4{
+	
 	color:#FF9961 !important;
 }
 .imglist>li>a>.text>div:first-child {
@@ -245,10 +248,12 @@ a {
 }
 
 .imglist>li>a>.text>h3 {
+	font-family: "Comic Sans MS",cursive,sans-serif!important;
 	color: #404040;
 	margin: 0;
 }
 .imglist>li>a>.text>h4 {
+	font-family: "Comic Sans MS",cursive,sans-serif!important;
 	color: #404040;
 	margin: 0;
 	text-align: center;
