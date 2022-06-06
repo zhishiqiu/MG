@@ -24,7 +24,7 @@ $result=$conn->query($sql);
 	
 if($result){
 			
-	echo "<script>alert('추가 성공');window.location.href='../pet_adoption.php';</script>";
+	echo "<script>alert('upload success');window.location.href='../pet_adoption.php';</script>";
 }else {
 	echo "<script>alert('failed');window.location.href='../pet_adoption.php'; </script>";
 }
