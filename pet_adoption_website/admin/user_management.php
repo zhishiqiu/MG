@@ -99,8 +99,8 @@
                             <td>". $row["password"] ."</td>
                             <td>". $row["create_time"] ."</td>
                             <td> 
-                              <botton><a href='user_change.php?id=". $row['id']." '>change</botton>
-                              <botton><a href='user_delete.php?id=". $row['id']." '>delect</botton>
+                              <botton><a href='user_change.php?id=". $row['id']." '>Change</botton>
+                              <botton><a href='user_delete.php?id=". $row['id']." '>Delect</botton>
                             </td>
                         </tr>
                         ";

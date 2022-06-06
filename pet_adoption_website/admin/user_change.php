@@ -79,9 +79,12 @@
   </div>
 
   <div class="layui-body">
-    <div><p>User management page</p></div>
+    <div style="text-align: center; margin-top:50px; font:italic 2em Georgia, serif;"><p>User management page</p></div>
     <!-- 内容主体区域 -->
-    <div class="formbox">
+    <div class="formbox" style="display: flex;
+            justify-content: center;
+            margin-top:200px;
+            ">
         <form action="api/user_change.php?id= <?php echo $user_id ?>" method="post" class="layui-form">
             <div class="layui-form-item">
               <lable>Username</lable>

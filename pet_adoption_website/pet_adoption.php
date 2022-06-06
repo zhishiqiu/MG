@@ -83,6 +83,27 @@
             }?> 
         </div>
     </div>
+
+    <div class="foottop"></div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-yi"> 
+                        <h1>PetCompany</h1>
+                        <h2>Contact us</h2>
+                    <span>
+                        <a href="#" ><h3>Terms of service</h3></a>
+                        <a href="#"><h3>Privacy policy</h3></a>
+                        <a href="#"><h3>Location-based service Terms</h3></a>
+                    </span>                   
+                </div>
+                <div class="footer-two">
+                    <img src="image/liantu.png">
+                    <p class="follow">Follow Us</p>
+                </div>
+               
+               
+            </div>
+        </div>
     
     <script type = "text/javascript" src="script/layui.js"></script>
     <script type = "text/javascript" src="script/fenye.js"></script>

@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Background management page</title>
   <link rel="stylesheet" href="../../node_modules/layui/dist/css/layui.css">
+  <link rel="stylesheet" href="../admin/css/user_delete.css">
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
@@ -75,7 +76,7 @@
   </div>
 
   <div class="layui-body">
-    <div><p>User management page</p></div>
+    <div style="text-align: center; margin-top:50px; font:italic 2em Georgia, serif;"><p>User management page</p></div>
     <!-- 内容主体区域 -->
     <table class="layui-table">
         <thead>
@@ -130,10 +131,14 @@ layer.open({
   title: false,
   closeBtn: 0,
   shadeClose: true,
-  skin: 'layui-layer-lan',
-  content: '<div>are you sure delect this user</div> <br> <div><a href="api/user_delete.php?id=<?php echo $user_id?>">yes</div> <div><a href="user_management.php">no</div>'
+  skin:'demo-class',
+  content: '<div style="font-size:20px; font-weight:100; margin-top:45px; text-align:center;">Are you sure delect this user ?</div> <br> <div style="text-align:center; font-size:20px;font-weight:100; word-spacing:2em"><a href="api/user_delete.php?id=<?php echo $user_id?>" >Yes  <a href="user_management.php">No </div>'
 });
 
+layer.config({
+  skin: 'demo-class'
+})
+    
 
 </script>
 </body>
