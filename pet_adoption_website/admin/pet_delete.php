@@ -11,6 +11,7 @@
   <title>Background management page</title>
   <link rel="stylesheet" href="../../node_modules/layui/dist/css/layui.css">
   <link rel="stylesheet" href="../admin/css/pet_delete.css">
+  <link rel="icon" type="image/x-icon" href="../image/bitbug_favicon.ico" />
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">

@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="style/public.css" />
     <link rel="stylesheet" type="text/css" href="style/user.css" />
     <link rel="stylesheet" type="text/css" href="style/pet.css" />
+    <link rel="icon" type="image/x-icon" href="image/bitbug_favicon.ico" />
 </head>
 <body>
 <div class="head">

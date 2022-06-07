@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="style/public.css" />
     <link rel="stylesheet" type="text/css" href="style/login.css" />
     <link rel="stylesheet" type="text/css" href="style/register.css" />
+    <link rel="icon" type="image/x-icon" href="image/bitbug_favicon.ico" />
 </head>
 <body>
     <div class="header">
